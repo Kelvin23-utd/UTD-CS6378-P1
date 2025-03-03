@@ -1,0 +1,2709 @@
+Compiling...
+make: Nothing to be done for `all'.
+Killing any existing processes...
+Starting processes...
+Started process 0 (PID: 37138)
+Started process 1 (PID: 37139)
+Started process 2 (PID: 37140)
+Started process 3 (PID: 37141)
+All processes started. Logs are being saved to logs/log*.txt
+Monitoring processes. Script will terminate when all processes complete.
+
+==> logs/log0.txt <==
+
+==> logs/log1.txt <==
+
+==> logs/log2.txt <==
+
+==> logs/log3.txt <==
+
+==> logs/log0.txt <==
+Process 0 initialized. Delay mode: OFF
+
+==> logs/log1.txt <==
+Process 1 initialized. Delay mode: OFF
+
+==> logs/log2.txt <==
+Process 2 initialized. Delay mode: OFF
+
+==> logs/log3.txt <==
+Process 3 initialized. Delay mode: OFF
+
+==> logs/log0.txt <==
+Accepted connection from process 1
+
+==> logs/log1.txt <==
+Connected to process 0
+
+==> logs/log0.txt <==
+Accepted connection from process 2
+
+==> logs/log2.txt <==
+Connected to process 0
+
+==> logs/log0.txt <==
+Accepted connection from process 3
+Process 0: All connections established
+
+==> logs/log1.txt <==
+Accepted connection from process 2
+
+==> logs/log2.txt <==
+Connected to process 1
+
+==> logs/log3.txt <==
+Connected to process 0
+
+==> logs/log1.txt <==
+Accepted connection from process 3
+Process 1: All connections established
+
+==> logs/log3.txt <==
+Connected to process 1
+
+==> logs/log2.txt <==
+Accepted connection from process 3
+Process 2: All connections established
+
+==> logs/log3.txt <==
+Connected to process 2
+Process 3: All connections established
+
+==> logs/log0.txt <==
+Sent message 0, VC=[1,0,0,0]
+
+==> logs/log1.txt <==
+Sent message 0, VC=[0,1,0,0]
+Delivered message 0 from P0, VC=[1,0,0,0]
+Sent message 1, VC=[1,2,0,0]
+
+==> logs/log2.txt <==
+Sent message 0, VC=[0,0,1,0]
+Delivered message 0 from P0, VC=[1,0,0,0]
+Delivered message 0 from P1, VC=[0,1,0,0]
+
+==> logs/log1.txt <==
+Delivered message 0 from P2, VC=[0,0,1,0]
+
+==> logs/log3.txt <==
+Sent message 0, VC=[0,0,0,1]
+Delivered message 0 from P0, VC=[1,0,0,0]
+Delivered message 0 from P1, VC=[0,1,0,0]
+Delivered message 0 from P2, VC=[0,0,1,0]
+
+==> logs/log0.txt <==
+Sent message 1, VC=[2,0,0,0]
+Delivered message 0 from P1, VC=[0,1,0,0]
+Delivered message 0 from P2, VC=[0,0,1,0]
+Delivered message 0 from P3, VC=[0,0,0,1]
+
+==> logs/log1.txt <==
+Sent message 2, VC=[1,3,1,0]
+Delivered message 1 from P0, VC=[2,0,0,0]
+Delivered message 0 from P3, VC=[0,0,0,1]
+
+==> logs/log3.txt <==
+Sent message 1, VC=[1,1,1,2]
+Delivered message 1 from P0, VC=[2,0,0,0]
+Delivered message 1 from P1, VC=[1,2,0,0]
+
+==> logs/log0.txt <==
+Sent message 2, VC=[3,1,1,1]
+Delivered message 1 from P1, VC=[1,2,0,0]
+Delivered message 1 from P3, VC=[1,1,1,2]
+
+==> logs/log2.txt <==
+Sent message 1, VC=[1,1,2,0]
+Delivered message 1 from P0, VC=[2,0,0,0]
+Delivered message 1 from P1, VC=[1,2,0,0]
+
+==> logs/log3.txt <==
+Sent message 2, VC=[2,2,1,3]
+Delivered message 2 from P0, VC=[3,1,1,1]
+Delivered message 2 from P1, VC=[1,3,1,0]
+Delivered message 1 from P2, VC=[1,1,2,0]
+
+==> logs/log2.txt <==
+Delivered message 0 from P3, VC=[0,0,0,1]
+
+==> logs/log1.txt <==
+Sent message 3, VC=[2,4,1,1]
+Delivered message 2 from P0, VC=[3,1,1,1]
+Delivered message 1 from P2, VC=[1,1,2,0]
+Delivered message 1 from P3, VC=[1,1,1,2]
+
+==> logs/log0.txt <==
+Sent message 3, VC=[4,2,1,2]
+Delivered message 2 from P1, VC=[1,3,1,0]
+Delivered message 1 from P2, VC=[1,1,2,0]
+Delivered message 2 from P3, VC=[2,2,1,3]
+
+==> logs/log3.txt <==
+Sent message 3, VC=[3,3,2,4]
+Delivered message 3 from P0, VC=[4,2,1,2]
+Delivered message 3 from P1, VC=[2,4,1,1]
+
+==> logs/log2.txt <==
+Sent message 2, VC=[2,2,3,1]
+Delivered message 2 from P0, VC=[3,1,1,1]
+
+==> logs/log0.txt <==
+Sent message 4, VC=[5,3,2,3]
+Delivered message 3 from P1, VC=[2,4,1,1]
+Delivered message 2 from P2, VC=[2,2,3,1]
+Delivered message 3 from P3, VC=[3,3,2,4]
+
+==> logs/log2.txt <==
+Delivered message 2 from P1, VC=[1,3,1,0]
+Delivered message 1 from P3, VC=[1,1,1,2]
+
+==> logs/log3.txt <==
+Sent message 4, VC=[4,4,2,5]
+Delivered message 4 from P0, VC=[5,3,2,3]
+Delivered message 2 from P2, VC=[2,2,3,1]
+
+==> logs/log2.txt <==
+Sent message 3, VC=[3,3,4,2]
+Delivered message 3 from P0, VC=[4,2,1,2]
+Delivered message 3 from P1, VC=[2,4,1,1]
+Delivered message 2 from P3, VC=[2,2,1,3]
+
+==> logs/log3.txt <==
+Sent message 5, VC=[5,4,3,6]
+Delivered message 3 from P2, VC=[3,3,4,2]
+
+==> logs/log2.txt <==
+Sent message 4, VC=[4,4,5,3]
+Delivered message 4 from P0, VC=[5,3,2,3]
+
+==> logs/log1.txt <==
+Sent message 4, VC=[3,5,2,2]
+Delivered message 3 from P0, VC=[4,2,1,2]
+Delivered message 2 from P2, VC=[2,2,3,1]
+Delivered message 2 from P3, VC=[2,2,1,3]
+
+==> logs/log2.txt <==
+Delivered message 4 from P1, VC=[3,5,2,2]
+Delivered message 3 from P3, VC=[3,3,2,4]
+
+==> logs/log0.txt <==
+Sent message 5, VC=[6,4,3,4]
+Delivered message 4 from P1, VC=[3,5,2,2]
+Delivered message 3 from P2, VC=[3,3,4,2]
+Delivered message 4 from P3, VC=[4,4,2,5]
+Sent message 6, VC=[7,5,4,5]
+Delivered message 4 from P2, VC=[4,4,5,3]
+Delivered message 5 from P3, VC=[5,4,3,6]
+
+==> logs/log3.txt <==
+Sent message 6, VC=[5,4,4,7]
+Delivered message 5 from P0, VC=[6,4,3,4]
+Delivered message 4 from P1, VC=[3,5,2,2]
+Delivered message 4 from P2, VC=[4,4,5,3]
+
+==> logs/log0.txt <==
+Sent message 7, VC=[8,5,5,6]
+Delivered message 6 from P3, VC=[5,4,4,7]
+
+==> logs/log3.txt <==
+Sent message 7, VC=[6,5,5,8]
+Delivered message 6 from P0, VC=[7,5,4,5]
+
+==> logs/log1.txt <==
+Sent message 5, VC=[4,6,3,3]
+Delivered message 4 from P0, VC=[5,3,2,3]
+Delivered message 3 from P2, VC=[3,3,4,2]
+
+==> logs/log2.txt <==
+Sent message 5, VC=[5,5,6,4]
+Delivered message 5 from P0, VC=[6,4,3,4]
+Delivered message 5 from P1, VC=[4,6,3,3]
+Delivered message 4 from P3, VC=[4,4,2,5]
+
+==> logs/log1.txt <==
+Delivered message 3 from P3, VC=[3,3,2,4]
+Sent message 6, VC=[5,7,4,4]
+Delivered message 5 from P0, VC=[6,4,3,4]
+Delivered message 4 from P2, VC=[4,4,5,3]
+Delivered message 4 from P3, VC=[4,4,2,5]
+
+==> logs/log2.txt <==
+Sent message 6, VC=[6,6,7,5]
+Delivered message 6 from P0, VC=[7,5,4,5]
+Delivered message 6 from P1, VC=[5,7,4,4]
+Delivered message 5 from P3, VC=[5,4,3,6]
+
+==> logs/log0.txt <==
+Sent message 8, VC=[9,5,5,7]
+Delivered message 5 from P1, VC=[4,6,3,3]
+Delivered message 5 from P2, VC=[5,5,6,4]
+Delivered message 7 from P3, VC=[6,5,5,8]
+Sent message 9, VC=[10,6,6,8]
+Delivered message 6 from P1, VC=[5,7,4,4]
+Delivered message 6 from P2, VC=[6,6,7,5]
+Sent message 10, VC=[11,7,7,8]
+
+==> logs/log1.txt <==
+Sent message 7, VC=[6,8,5,5]
+Delivered message 6 from P0, VC=[7,5,4,5]
+
+==> logs/log3.txt <==
+Sent message 8, VC=[7,5,5,9]
+Delivered message 7 from P0, VC=[8,5,5,6]
+Delivered message 5 from P1, VC=[4,6,3,3]
+Delivered message 5 from P2, VC=[5,5,6,4]
+
+==> logs/log0.txt <==
+Delivered message 7 from P1, VC=[6,8,5,5]
+Delivered message 8 from P3, VC=[7,5,5,9]
+
+==> logs/log1.txt <==
+Delivered message 5 from P2, VC=[5,5,6,4]
+Delivered message 5 from P3, VC=[5,4,3,6]
+
+==> logs/log2.txt <==
+Sent message 7, VC=[7,7,8,6]
+Delivered message 7 from P0, VC=[8,5,5,6]
+Delivered message 7 from P1, VC=[6,8,5,5]
+Delivered message 6 from P3, VC=[5,4,4,7]
+
+==> logs/log0.txt <==
+Sent message 11, VC=[12,8,7,9]
+
+==> logs/log1.txt <==
+Sent message 8, VC=[7,9,6,6]
+Delivered message 7 from P0, VC=[8,5,5,6]
+Delivered message 6 from P2, VC=[6,6,7,5]
+Delivered message 6 from P3, VC=[5,4,4,7]
+
+==> logs/log0.txt <==
+Delivered message 8 from P1, VC=[7,9,6,6]
+Delivered message 7 from P2, VC=[7,7,8,6]
+Sent message 12, VC=[13,9,8,9]
+
+==> logs/log2.txt <==
+Sent message 8, VC=[8,8,9,7]
+Delivered message 8 from P0, VC=[9,5,5,7]
+Delivered message 8 from P1, VC=[7,9,6,6]
+Delivered message 7 from P3, VC=[6,5,5,8]
+
+==> logs/log0.txt <==
+Delivered message 8 from P2, VC=[8,8,9,7]
+
+==> logs/log1.txt <==
+Sent message 9, VC=[8,10,7,7]
+Delivered message 8 from P0, VC=[9,5,5,7]
+Delivered message 7 from P2, VC=[7,7,8,6]
+Delivered message 7 from P3, VC=[6,5,5,8]
+
+==> logs/log0.txt <==
+Sent message 13, VC=[14,9,9,9]
+Delivered message 9 from P1, VC=[8,10,7,7]
+Sent message 14, VC=[15,10,9,9]
+
+==> logs/log3.txt <==
+Sent message 9, VC=[8,6,6,10]
+Delivered message 8 from P0, VC=[9,5,5,7]
+Delivered message 6 from P1, VC=[5,7,4,4]
+Delivered message 6 from P2, VC=[6,6,7,5]
+
+==> logs/log2.txt <==
+Sent message 9, VC=[9,9,10,8]
+Delivered message 9 from P0, VC=[10,6,6,8]
+Delivered message 9 from P1, VC=[8,10,7,7]
+Delivered message 8 from P3, VC=[7,5,5,9]
+
+==> logs/log0.txt <==
+Sent message 15, VC=[16,10,9,9]
+Delivered message 9 from P2, VC=[9,9,10,8]
+Delivered message 9 from P3, VC=[8,6,6,10]
+
+==> logs/log2.txt <==
+Sent message 10, VC=[10,10,11,9]
+Delivered message 10 from P0, VC=[11,7,7,8]
+Delivered message 9 from P3, VC=[8,6,6,10]
+
+==> logs/log1.txt <==
+Sent message 10, VC=[9,11,8,8]
+Delivered message 9 from P0, VC=[10,6,6,8]
+Delivered message 8 from P2, VC=[8,8,9,7]
+Delivered message 8 from P3, VC=[7,5,5,9]
+
+==> logs/log3.txt <==
+Sent message 10, VC=[9,7,7,11]
+Delivered message 9 from P0, VC=[10,6,6,8]
+Delivered message 7 from P1, VC=[6,8,5,5]
+Delivered message 7 from P2, VC=[7,7,8,6]
+Sent message 11, VC=[10,8,8,12]
+Delivered message 10 from P0, VC=[11,7,7,8]
+Delivered message 8 from P1, VC=[7,9,6,6]
+Delivered message 8 from P2, VC=[8,8,9,7]
+Sent message 12, VC=[11,9,9,13]
+Delivered message 11 from P0, VC=[12,8,7,9]
+Delivered message 9 from P1, VC=[8,10,7,7]
+Delivered message 9 from P2, VC=[9,9,10,8]
+
+==> logs/log2.txt <==
+Sent message 11, VC=[11,10,12,10]
+Delivered message 11 from P0, VC=[12,8,7,9]
+Delivered message 10 from P1, VC=[9,11,8,8]
+Delivered message 10 from P3, VC=[9,7,7,11]
+
+==> logs/log0.txt <==
+Sent message 16, VC=[17,10,10,10]
+Delivered message 10 from P1, VC=[9,11,8,8]
+Delivered message 10 from P2, VC=[10,10,11,9]
+
+==> logs/log2.txt <==
+Sent message 12, VC=[12,11,13,11]
+Delivered message 12 from P0, VC=[13,9,8,9]
+Delivered message 11 from P3, VC=[10,8,8,12]
+
+==> logs/log0.txt <==
+Delivered message 10 from P3, VC=[9,7,7,11]
+
+==> logs/log1.txt <==
+Sent message 11, VC=[10,12,9,9]
+Delivered message 10 from P0, VC=[11,7,7,8]
+Delivered message 9 from P2, VC=[9,9,10,8]
+Delivered message 9 from P3, VC=[8,6,6,10]
+
+==> logs/log0.txt <==
+Sent message 17, VC=[18,11,11,11]
+Delivered message 11 from P1, VC=[10,12,9,9]
+Delivered message 11 from P2, VC=[11,10,12,10]
+
+==> logs/log2.txt <==
+Sent message 13, VC=[13,11,14,12]
+Delivered message 13 from P0, VC=[14,9,9,9]
+Delivered message 11 from P1, VC=[10,12,9,9]
+Delivered message 12 from P3, VC=[11,9,9,13]
+
+==> logs/log0.txt <==
+Delivered message 11 from P3, VC=[10,8,8,12]
+
+==> logs/log3.txt <==
+Sent message 13, VC=[12,10,10,14]
+Delivered message 12 from P0, VC=[13,9,8,9]
+Delivered message 10 from P1, VC=[9,11,8,8]
+Delivered message 10 from P2, VC=[10,10,11,9]
+
+==> logs/log1.txt <==
+Sent message 12, VC=[11,13,10,10]
+Delivered message 11 from P0, VC=[12,8,7,9]
+Delivered message 10 from P2, VC=[10,10,11,9]
+
+==> logs/log2.txt <==
+Sent message 14, VC=[14,12,15,13]
+Delivered message 14 from P0, VC=[15,10,9,9]
+Delivered message 12 from P1, VC=[11,13,10,10]
+Delivered message 13 from P3, VC=[12,10,10,14]
+
+==> logs/log1.txt <==
+Delivered message 10 from P3, VC=[9,7,7,11]
+Sent message 13, VC=[12,14,11,11]
+Delivered message 12 from P0, VC=[13,9,8,9]
+Delivered message 11 from P2, VC=[11,10,12,10]
+Delivered message 11 from P3, VC=[10,8,8,12]
+Sent message 14, VC=[13,15,12,12]
+Delivered message 13 from P0, VC=[14,9,9,9]
+Delivered message 12 from P2, VC=[12,11,13,11]
+Delivered message 12 from P3, VC=[11,9,9,13]
+
+==> logs/log3.txt <==
+Sent message 14, VC=[13,11,11,15]
+Delivered message 13 from P0, VC=[14,9,9,9]
+Delivered message 11 from P1, VC=[10,12,9,9]
+Delivered message 11 from P2, VC=[11,10,12,10]
+
+==> logs/log0.txt <==
+Sent message 18, VC=[19,12,12,12]
+Delivered message 12 from P1, VC=[11,13,10,10]
+Delivered message 12 from P2, VC=[12,11,13,11]
+Delivered message 12 from P3, VC=[11,9,9,13]
+
+==> logs/log2.txt <==
+Sent message 15, VC=[15,13,16,14]
+Delivered message 15 from P0, VC=[16,10,9,9]
+Delivered message 13 from P1, VC=[12,14,11,11]
+Delivered message 14 from P3, VC=[13,11,11,15]
+
+==> logs/log3.txt <==
+Sent message 15, VC=[14,12,12,16]
+Delivered message 14 from P0, VC=[15,10,9,9]
+Delivered message 12 from P1, VC=[11,13,10,10]
+Delivered message 12 from P2, VC=[12,11,13,11]
+
+==> logs/log0.txt <==
+Sent message 19, VC=[20,13,13,13]
+Delivered message 13 from P1, VC=[12,14,11,11]
+Delivered message 13 from P2, VC=[13,11,14,12]
+Delivered message 13 from P3, VC=[12,10,10,14]
+
+==> logs/log1.txt <==
+Sent message 15, VC=[14,16,13,13]
+Delivered message 14 from P0, VC=[15,10,9,9]
+Delivered message 13 from P2, VC=[13,11,14,12]
+Delivered message 13 from P3, VC=[12,10,10,14]
+Sent message 16, VC=[15,17,14,14]
+
+==> logs/log2.txt <==
+Sent message 16, VC=[16,14,17,15]
+Delivered message 16 from P0, VC=[17,10,10,10]
+
+==> logs/log3.txt <==
+Sent message 16, VC=[15,13,13,17]
+Delivered message 15 from P0, VC=[16,10,9,9]
+Delivered message 13 from P1, VC=[12,14,11,11]
+Delivered message 13 from P2, VC=[13,11,14,12]
+
+==> logs/log1.txt <==
+Delivered message 15 from P0, VC=[16,10,9,9]
+Delivered message 14 from P2, VC=[14,12,15,13]
+Delivered message 14 from P3, VC=[13,11,11,15]
+
+==> logs/log2.txt <==
+Delivered message 14 from P1, VC=[13,15,12,12]
+Delivered message 15 from P3, VC=[14,12,12,16]
+Sent message 17, VC=[17,15,18,16]
+Delivered message 17 from P0, VC=[18,11,11,11]
+
+==> logs/log0.txt <==
+Sent message 20, VC=[21,14,14,14]
+Delivered message 14 from P1, VC=[13,15,12,12]
+
+==> logs/log2.txt <==
+Delivered message 15 from P1, VC=[14,16,13,13]
+Delivered message 16 from P3, VC=[15,13,13,17]
+
+==> logs/log0.txt <==
+Delivered message 14 from P2, VC=[14,12,15,13]
+Delivered message 14 from P3, VC=[13,11,11,15]
+
+==> logs/log2.txt <==
+Sent message 18, VC=[18,16,19,17]
+Delivered message 18 from P0, VC=[19,12,12,12]
+Delivered message 16 from P1, VC=[15,17,14,14]
+
+==> logs/log0.txt <==
+Sent message 21, VC=[22,15,15,15]
+Delivered message 15 from P1, VC=[14,16,13,13]
+Delivered message 15 from P2, VC=[15,13,16,14]
+Delivered message 15 from P3, VC=[14,12,12,16]
+
+==> logs/log2.txt <==
+Sent message 19, VC=[19,17,20,17]
+Delivered message 19 from P0, VC=[20,13,13,13]
+
+==> logs/log1.txt <==
+Sent message 17, VC=[16,18,15,15]
+Delivered message 16 from P0, VC=[17,10,10,10]
+Delivered message 15 from P2, VC=[15,13,16,14]
+Delivered message 15 from P3, VC=[14,12,12,16]
+
+==> logs/log3.txt <==
+Sent message 17, VC=[16,14,14,18]
+Delivered message 16 from P0, VC=[17,10,10,10]
+Delivered message 14 from P1, VC=[13,15,12,12]
+Delivered message 14 from P2, VC=[14,12,15,13]
+
+==> logs/log0.txt <==
+Sent message 22, VC=[23,16,16,16]
+Delivered message 16 from P1, VC=[15,17,14,14]
+Delivered message 16 from P2, VC=[16,14,17,15]
+Delivered message 16 from P3, VC=[15,13,13,17]
+
+==> logs/log1.txt <==
+Sent message 18, VC=[17,19,16,16]
+Delivered message 17 from P0, VC=[18,11,11,11]
+Delivered message 16 from P2, VC=[16,14,17,15]
+Delivered message 16 from P3, VC=[15,13,13,17]
+
+==> logs/log2.txt <==
+Sent message 20, VC=[20,17,21,17]
+Delivered message 20 from P0, VC=[21,14,14,14]
+Delivered message 17 from P1, VC=[16,18,15,15]
+Delivered message 17 from P3, VC=[16,14,14,18]
+
+==> logs/log3.txt <==
+Sent message 18, VC=[17,15,15,19]
+Delivered message 17 from P0, VC=[18,11,11,11]
+Delivered message 15 from P1, VC=[14,16,13,13]
+Delivered message 15 from P2, VC=[15,13,16,14]
+
+==> logs/log2.txt <==
+Sent message 21, VC=[21,18,22,18]
+Delivered message 21 from P0, VC=[22,15,15,15]
+Delivered message 18 from P1, VC=[17,19,16,16]
+Delivered message 18 from P3, VC=[17,15,15,19]
+
+==> logs/log1.txt <==
+Sent message 19, VC=[18,20,17,17]
+Delivered message 18 from P0, VC=[19,12,12,12]
+Delivered message 17 from P2, VC=[17,15,18,16]
+Delivered message 17 from P3, VC=[16,14,14,18]
+
+==> logs/log0.txt <==
+Sent message 23, VC=[24,17,17,17]
+Delivered message 17 from P1, VC=[16,18,15,15]
+Delivered message 17 from P2, VC=[17,15,18,16]
+Delivered message 17 from P3, VC=[16,14,14,18]
+Sent message 24, VC=[25,18,18,18]
+
+==> logs/log1.txt <==
+Sent message 20, VC=[19,21,18,18]
+Delivered message 19 from P0, VC=[20,13,13,13]
+
+==> logs/log0.txt <==
+Delivered message 18 from P1, VC=[17,19,16,16]
+Delivered message 18 from P2, VC=[18,16,19,17]
+Delivered message 18 from P3, VC=[17,15,15,19]
+
+==> logs/log1.txt <==
+Delivered message 18 from P2, VC=[18,16,19,17]
+Delivered message 18 from P3, VC=[17,15,15,19]
+
+==> logs/log3.txt <==
+Sent message 19, VC=[18,16,16,20]
+Delivered message 18 from P0, VC=[19,12,12,12]
+Delivered message 16 from P1, VC=[15,17,14,14]
+Delivered message 16 from P2, VC=[16,14,17,15]
+
+==> logs/log1.txt <==
+Sent message 21, VC=[20,22,19,19]
+Delivered message 20 from P0, VC=[21,14,14,14]
+Delivered message 19 from P2, VC=[19,17,20,17]
+Delivered message 19 from P3, VC=[18,16,16,20]
+
+==> logs/log2.txt <==
+Sent message 22, VC=[22,19,23,19]
+Delivered message 22 from P0, VC=[23,16,16,16]
+Delivered message 19 from P1, VC=[18,20,17,17]
+Delivered message 19 from P3, VC=[18,16,16,20]
+
+==> logs/log3.txt <==
+Sent message 20, VC=[19,17,17,21]
+Delivered message 19 from P0, VC=[20,13,13,13]
+Delivered message 17 from P1, VC=[16,18,15,15]
+Delivered message 17 from P2, VC=[17,15,18,16]
+
+==> logs/log1.txt <==
+Sent message 22, VC=[21,23,20,20]
+Delivered message 21 from P0, VC=[22,15,15,15]
+Delivered message 20 from P2, VC=[20,17,21,17]
+Delivered message 20 from P3, VC=[19,17,17,21]
+
+==> logs/log0.txt <==
+Sent message 25, VC=[26,19,19,19]
+Delivered message 19 from P1, VC=[18,20,17,17]
+Delivered message 19 from P2, VC=[19,17,20,17]
+Delivered message 19 from P3, VC=[18,16,16,20]
+
+==> logs/log2.txt <==
+Sent message 23, VC=[23,20,24,20]
+Delivered message 23 from P0, VC=[24,17,17,17]
+Delivered message 20 from P1, VC=[19,21,18,18]
+Delivered message 20 from P3, VC=[19,17,17,21]
+
+==> logs/log0.txt <==
+Sent message 26, VC=[27,20,20,20]
+Delivered message 20 from P1, VC=[19,21,18,18]
+
+==> logs/log1.txt <==
+Sent message 23, VC=[22,24,21,21]
+Delivered message 22 from P0, VC=[23,16,16,16]
+Delivered message 21 from P2, VC=[21,18,22,18]
+
+==> logs/log0.txt <==
+Delivered message 20 from P2, VC=[20,17,21,17]
+Delivered message 20 from P3, VC=[19,17,17,21]
+
+==> logs/log2.txt <==
+Sent message 24, VC=[24,21,25,21]
+Delivered message 24 from P0, VC=[25,18,18,18]
+Delivered message 21 from P1, VC=[20,22,19,19]
+Sent message 25, VC=[25,22,26,21]
+
+==> logs/log3.txt <==
+Sent message 21, VC=[20,18,18,22]
+Delivered message 20 from P0, VC=[21,14,14,14]
+Delivered message 18 from P1, VC=[17,19,16,16]
+Delivered message 18 from P2, VC=[18,16,19,17]
+
+==> logs/log2.txt <==
+Delivered message 25 from P0, VC=[26,19,19,19]
+Delivered message 22 from P1, VC=[21,23,20,20]
+Delivered message 21 from P3, VC=[20,18,18,22]
+
+==> logs/log1.txt <==
+Sent message 24, VC=[23,25,22,21]
+Delivered message 23 from P0, VC=[24,17,17,17]
+Delivered message 22 from P2, VC=[22,19,23,19]
+Delivered message 21 from P3, VC=[20,18,18,22]
+
+==> logs/log0.txt <==
+Sent message 27, VC=[28,21,21,21]
+Delivered message 21 from P1, VC=[20,22,19,19]
+Delivered message 21 from P2, VC=[21,18,22,18]
+
+==> logs/log1.txt <==
+Sent message 25, VC=[24,26,23,22]
+Delivered message 24 from P0, VC=[25,18,18,18]
+Delivered message 23 from P2, VC=[23,20,24,20]
+
+==> logs/log0.txt <==
+Delivered message 21 from P3, VC=[20,18,18,22]
+
+==> logs/log3.txt <==
+Sent message 22, VC=[21,19,19,23]
+Delivered message 21 from P0, VC=[22,15,15,15]
+Delivered message 19 from P1, VC=[18,20,17,17]
+Delivered message 19 from P2, VC=[19,17,20,17]
+
+==> logs/log1.txt <==
+Sent message 26, VC=[25,27,24,22]
+Delivered message 25 from P0, VC=[26,19,19,19]
+Delivered message 24 from P2, VC=[24,21,25,21]
+Delivered message 22 from P3, VC=[21,19,19,23]
+Sent message 27, VC=[26,28,25,23]
+Delivered message 26 from P0, VC=[27,20,20,20]
+Delivered message 25 from P2, VC=[25,22,26,21]
+
+==> logs/log2.txt <==
+Sent message 26, VC=[26,23,27,22]
+Delivered message 26 from P0, VC=[27,20,20,20]
+Delivered message 23 from P1, VC=[22,24,21,21]
+Delivered message 22 from P3, VC=[21,19,19,23]
+
+==> logs/log0.txt <==
+Sent message 28, VC=[29,22,22,22]
+Delivered message 22 from P1, VC=[21,23,20,20]
+Delivered message 22 from P2, VC=[22,19,23,19]
+Delivered message 22 from P3, VC=[21,19,19,23]
+
+==> logs/log1.txt <==
+Sent message 28, VC=[27,29,26,23]
+Delivered message 27 from P0, VC=[28,21,21,21]
+Delivered message 26 from P2, VC=[26,23,27,22]
+
+==> logs/log0.txt <==
+Sent message 29, VC=[30,23,23,23]
+Delivered message 23 from P1, VC=[22,24,21,21]
+Delivered message 23 from P2, VC=[23,20,24,20]
+
+==> logs/log3.txt <==
+Sent message 23, VC=[22,20,20,24]
+Delivered message 22 from P0, VC=[23,16,16,16]
+Delivered message 20 from P1, VC=[19,21,18,18]
+Delivered message 20 from P2, VC=[20,17,21,17]
+
+==> logs/log0.txt <==
+Delivered message 23 from P3, VC=[22,20,20,24]
+
+==> logs/log3.txt <==
+Sent message 24, VC=[23,21,21,25]
+Delivered message 23 from P0, VC=[24,17,17,17]
+Delivered message 21 from P1, VC=[20,22,19,19]
+Delivered message 21 from P2, VC=[21,18,22,18]
+
+==> logs/log2.txt <==
+Sent message 27, VC=[27,24,28,23]
+Delivered message 27 from P0, VC=[28,21,21,21]
+Delivered message 24 from P1, VC=[23,25,22,21]
+Delivered message 23 from P3, VC=[22,20,20,24]
+
+==> logs/log1.txt <==
+Sent message 29, VC=[28,30,27,23]
+Delivered message 28 from P0, VC=[29,22,22,22]
+Delivered message 27 from P2, VC=[27,24,28,23]
+Delivered message 23 from P3, VC=[22,20,20,24]
+
+==> logs/log0.txt <==
+Sent message 30, VC=[31,24,24,24]
+Delivered message 24 from P1, VC=[23,25,22,21]
+
+==> logs/log2.txt <==
+Sent message 28, VC=[28,25,29,24]
+Delivered message 28 from P0, VC=[29,22,22,22]
+Delivered message 25 from P1, VC=[24,26,23,22]
+Delivered message 24 from P3, VC=[23,21,21,25]
+
+==> logs/log3.txt <==
+Sent message 25, VC=[24,22,22,26]
+Delivered message 24 from P0, VC=[25,18,18,18]
+Delivered message 22 from P1, VC=[21,23,20,20]
+Delivered message 22 from P2, VC=[22,19,23,19]
+
+==> logs/log0.txt <==
+Delivered message 24 from P2, VC=[24,21,25,21]
+Delivered message 24 from P3, VC=[23,21,21,25]
+
+==> logs/log1.txt <==
+Sent message 30, VC=[29,31,28,24]
+Delivered message 29 from P0, VC=[30,23,23,23]
+Delivered message 28 from P2, VC=[28,25,29,24]
+
+==> logs/log3.txt <==
+Sent message 26, VC=[25,23,23,27]
+Delivered message 25 from P0, VC=[26,19,19,19]
+Delivered message 23 from P1, VC=[22,24,21,21]
+Delivered message 23 from P2, VC=[23,20,24,20]
+
+==> logs/log1.txt <==
+Delivered message 24 from P3, VC=[23,21,21,25]
+
+==> logs/log3.txt <==
+Sent message 27, VC=[26,24,24,28]
+Delivered message 26 from P0, VC=[27,20,20,20]
+Delivered message 24 from P1, VC=[23,25,22,21]
+Delivered message 24 from P2, VC=[24,21,25,21]
+
+==> logs/log1.txt <==
+Sent message 31, VC=[30,32,29,25]
+Delivered message 30 from P0, VC=[31,24,24,24]
+
+==> logs/log3.txt <==
+Sent message 28, VC=[27,25,25,29]
+Delivered message 27 from P0, VC=[28,21,21,21]
+Delivered message 25 from P1, VC=[24,26,23,22]
+
+==> logs/log1.txt <==
+Delivered message 25 from P3, VC=[24,22,22,26]
+
+==> logs/log3.txt <==
+Delivered message 25 from P2, VC=[25,22,26,21]
+
+==> logs/log0.txt <==
+Sent message 31, VC=[32,25,25,25]
+Delivered message 25 from P1, VC=[24,26,23,22]
+Delivered message 25 from P2, VC=[25,22,26,21]
+Delivered message 25 from P3, VC=[24,22,22,26]
+
+==> logs/log1.txt <==
+Sent message 32, VC=[31,33,29,26]
+Delivered message 31 from P0, VC=[32,25,25,25]
+
+==> logs/log2.txt <==
+Sent message 29, VC=[29,26,30,25]
+Delivered message 29 from P0, VC=[30,23,23,23]
+Delivered message 26 from P1, VC=[25,27,24,22]
+Delivered message 25 from P3, VC=[24,22,22,26]
+
+==> logs/log1.txt <==
+Delivered message 29 from P2, VC=[29,26,30,25]
+Delivered message 26 from P3, VC=[25,23,23,27]
+Sent message 33, VC=[32,34,30,27]
+Delivered message 27 from P3, VC=[26,24,24,28]
+Sent message 34, VC=[32,35,30,28]
+
+==> logs/log3.txt <==
+Sent message 29, VC=[28,26,26,30]
+Delivered message 28 from P0, VC=[29,22,22,22]
+Delivered message 26 from P1, VC=[25,27,24,22]
+Delivered message 26 from P2, VC=[26,23,27,22]
+
+==> logs/log1.txt <==
+Delivered message 28 from P3, VC=[27,25,25,29]
+
+==> logs/log0.txt <==
+Sent message 32, VC=[33,26,26,26]
+Delivered message 26 from P1, VC=[25,27,24,22]
+Delivered message 26 from P2, VC=[26,23,27,22]
+Delivered message 26 from P3, VC=[25,23,23,27]
+Sent message 33, VC=[34,27,27,27]
+Delivered message 27 from P1, VC=[26,28,25,23]
+Delivered message 27 from P2, VC=[27,24,28,23]
+Delivered message 27 from P3, VC=[26,24,24,28]
+
+==> logs/log1.txt <==
+Sent message 35, VC=[32,36,30,29]
+Delivered message 32 from P0, VC=[33,26,26,26]
+Delivered message 30 from P2, VC=[30,27,31,26]
+
+==> logs/log2.txt <==
+Sent message 30, VC=[30,27,31,26]
+Delivered message 30 from P0, VC=[31,24,24,24]
+Delivered message 27 from P1, VC=[26,28,25,23]
+Delivered message 26 from P3, VC=[25,23,23,27]
+
+==> logs/log3.txt <==
+Sent message 30, VC=[29,27,27,31]
+Delivered message 29 from P0, VC=[30,23,23,23]
+Delivered message 27 from P1, VC=[26,28,25,23]
+Delivered message 27 from P2, VC=[27,24,28,23]
+
+==> logs/log1.txt <==
+Delivered message 29 from P3, VC=[28,26,26,30]
+
+==> logs/log2.txt <==
+Sent message 31, VC=[31,28,32,27]
+Delivered message 31 from P0, VC=[32,25,25,25]
+Delivered message 28 from P1, VC=[27,29,26,23]
+Delivered message 27 from P3, VC=[26,24,24,28]
+
+==> logs/log0.txt <==
+Sent message 34, VC=[35,28,28,28]
+Delivered message 28 from P1, VC=[27,29,26,23]
+Delivered message 28 from P2, VC=[28,25,29,24]
+
+==> logs/log2.txt <==
+Sent message 32, VC=[32,29,33,28]
+Delivered message 32 from P0, VC=[33,26,26,26]
+Delivered message 29 from P1, VC=[28,30,27,23]
+Delivered message 28 from P3, VC=[27,25,25,29]
+
+==> logs/log3.txt <==
+Sent message 31, VC=[30,28,28,32]
+Delivered message 30 from P0, VC=[31,24,24,24]
+Delivered message 28 from P1, VC=[27,29,26,23]
+Delivered message 28 from P2, VC=[28,25,29,24]
+
+==> logs/log0.txt <==
+Delivered message 28 from P3, VC=[27,25,25,29]
+
+==> logs/log1.txt <==
+Sent message 36, VC=[33,37,31,30]
+Delivered message 33 from P0, VC=[34,27,27,27]
+Delivered message 31 from P2, VC=[31,28,32,27]
+Delivered message 30 from P3, VC=[29,27,27,31]
+Sent message 37, VC=[34,38,32,31]
+
+==> logs/log2.txt <==
+Sent message 33, VC=[33,30,34,29]
+Delivered message 33 from P0, VC=[34,27,27,27]
+Delivered message 30 from P1, VC=[29,31,28,24]
+
+==> logs/log1.txt <==
+Delivered message 34 from P0, VC=[35,28,28,28]
+Delivered message 32 from P2, VC=[32,29,33,28]
+Delivered message 31 from P3, VC=[30,28,28,32]
+
+==> logs/log2.txt <==
+Delivered message 29 from P3, VC=[28,26,26,30]
+
+==> logs/log0.txt <==
+Sent message 35, VC=[36,29,29,29]
+Delivered message 29 from P1, VC=[28,30,27,23]
+Delivered message 29 from P2, VC=[29,26,30,25]
+Delivered message 29 from P3, VC=[28,26,26,30]
+
+==> logs/log3.txt <==
+Sent message 32, VC=[31,29,29,33]
+Delivered message 31 from P0, VC=[32,25,25,25]
+Delivered message 29 from P1, VC=[28,30,27,23]
+Delivered message 29 from P2, VC=[29,26,30,25]
+
+==> logs/log2.txt <==
+Sent message 34, VC=[34,31,35,30]
+Delivered message 34 from P0, VC=[35,28,28,28]
+
+==> logs/log1.txt <==
+Sent message 38, VC=[35,39,33,32]
+Delivered message 35 from P0, VC=[36,29,29,29]
+Delivered message 33 from P2, VC=[33,30,34,29]
+Delivered message 32 from P3, VC=[31,29,29,33]
+
+==> logs/log2.txt <==
+Delivered message 31 from P1, VC=[30,32,29,25]
+Delivered message 30 from P3, VC=[29,27,27,31]
+
+==> logs/log0.txt <==
+Sent message 36, VC=[37,30,30,30]
+Delivered message 30 from P1, VC=[29,31,28,24]
+Delivered message 30 from P2, VC=[30,27,31,26]
+Delivered message 30 from P3, VC=[29,27,27,31]
+
+==> logs/log1.txt <==
+Sent message 39, VC=[36,40,34,33]
+Delivered message 36 from P0, VC=[37,30,30,30]
+
+==> logs/log2.txt <==
+Sent message 35, VC=[35,32,36,31]
+Delivered message 35 from P0, VC=[36,29,29,29]
+Delivered message 32 from P1, VC=[31,33,29,26]
+Delivered message 31 from P3, VC=[30,28,28,32]
+
+==> logs/log1.txt <==
+Delivered message 34 from P2, VC=[34,31,35,30]
+
+==> logs/log0.txt <==
+Sent message 37, VC=[38,31,31,31]
+Delivered message 31 from P1, VC=[30,32,29,25]
+Delivered message 31 from P2, VC=[31,28,32,27]
+Delivered message 31 from P3, VC=[30,28,28,32]
+
+==> logs/log3.txt <==
+Sent message 33, VC=[32,30,30,34]
+Delivered message 32 from P0, VC=[33,26,26,26]
+Delivered message 30 from P1, VC=[29,31,28,24]
+Delivered message 30 from P2, VC=[30,27,31,26]
+
+==> logs/log2.txt <==
+Sent message 36, VC=[36,33,37,32]
+Delivered message 36 from P0, VC=[37,30,30,30]
+Delivered message 33 from P1, VC=[32,34,30,27]
+Delivered message 32 from P3, VC=[31,29,29,33]
+
+==> logs/log3.txt <==
+Sent message 34, VC=[33,31,31,35]
+Delivered message 33 from P0, VC=[34,27,27,27]
+Delivered message 31 from P1, VC=[30,32,29,25]
+Delivered message 31 from P2, VC=[31,28,32,27]
+
+==> logs/log1.txt <==
+Sent message 40, VC=[37,41,35,33]
+Delivered message 37 from P0, VC=[38,31,31,31]
+Delivered message 35 from P2, VC=[35,32,36,31]
+Delivered message 33 from P3, VC=[32,30,30,34]
+
+==> logs/log0.txt <==
+Sent message 38, VC=[39,32,32,32]
+Delivered message 32 from P1, VC=[31,33,29,26]
+Delivered message 32 from P2, VC=[32,29,33,28]
+Delivered message 32 from P3, VC=[31,29,29,33]
+Sent message 39, VC=[40,33,33,33]
+Delivered message 33 from P1, VC=[32,34,30,27]
+Delivered message 33 from P2, VC=[33,30,34,29]
+Delivered message 33 from P3, VC=[32,30,30,34]
+
+==> logs/log2.txt <==
+Sent message 37, VC=[37,34,38,33]
+Delivered message 37 from P0, VC=[38,31,31,31]
+Delivered message 34 from P1, VC=[32,35,30,28]
+Delivered message 33 from P3, VC=[32,30,30,34]
+
+==> logs/log0.txt <==
+Sent message 40, VC=[41,34,34,34]
+Delivered message 34 from P1, VC=[32,35,30,28]
+Delivered message 34 from P2, VC=[34,31,35,30]
+Delivered message 34 from P3, VC=[33,31,31,35]
+
+==> logs/log3.txt <==
+Sent message 35, VC=[34,32,32,36]
+Delivered message 34 from P0, VC=[35,28,28,28]
+Delivered message 32 from P1, VC=[31,33,29,26]
+Delivered message 32 from P2, VC=[32,29,33,28]
+
+==> logs/log1.txt <==
+Sent message 41, VC=[38,42,36,34]
+Delivered message 38 from P0, VC=[39,32,32,32]
+Delivered message 36 from P2, VC=[36,33,37,32]
+Delivered message 34 from P3, VC=[33,31,31,35]
+Sent message 42, VC=[39,43,37,35]
+Delivered message 39 from P0, VC=[40,33,33,33]
+Delivered message 37 from P2, VC=[37,34,38,33]
+Delivered message 35 from P3, VC=[34,32,32,36]
+
+==> logs/log0.txt <==
+Sent message 41, VC=[42,35,35,35]
+Delivered message 35 from P1, VC=[32,36,30,29]
+Delivered message 35 from P2, VC=[35,32,36,31]
+Delivered message 35 from P3, VC=[34,32,32,36]
+
+==> logs/log2.txt <==
+Sent message 38, VC=[38,35,39,34]
+Delivered message 38 from P0, VC=[39,32,32,32]
+Delivered message 35 from P1, VC=[32,36,30,29]
+Delivered message 34 from P3, VC=[33,31,31,35]
+
+==> logs/log3.txt <==
+Sent message 36, VC=[35,33,33,37]
+Delivered message 35 from P0, VC=[36,29,29,29]
+Delivered message 33 from P1, VC=[32,34,30,27]
+Delivered message 33 from P2, VC=[33,30,34,29]
+
+==> logs/log1.txt <==
+Sent message 43, VC=[40,44,38,36]
+Delivered message 40 from P0, VC=[41,34,34,34]
+Delivered message 38 from P2, VC=[38,35,39,34]
+Delivered message 36 from P3, VC=[35,33,33,37]
+
+==> logs/log0.txt <==
+Sent message 42, VC=[43,36,36,36]
+Delivered message 36 from P1, VC=[33,37,31,30]
+Delivered message 36 from P2, VC=[36,33,37,32]
+
+==> logs/log3.txt <==
+Sent message 37, VC=[36,34,34,38]
+Delivered message 36 from P0, VC=[37,30,30,30]
+Delivered message 34 from P1, VC=[32,35,30,28]
+Delivered message 34 from P2, VC=[34,31,35,30]
+
+==> logs/log0.txt <==
+Delivered message 36 from P3, VC=[35,33,33,37]
+
+==> logs/log2.txt <==
+Sent message 39, VC=[39,36,40,35]
+Delivered message 39 from P0, VC=[40,33,33,33]
+Delivered message 36 from P1, VC=[33,37,31,30]
+Delivered message 35 from P3, VC=[34,32,32,36]
+
+==> logs/log0.txt <==
+Sent message 43, VC=[44,37,37,37]
+Delivered message 37 from P1, VC=[34,38,32,31]
+
+==> logs/log2.txt <==
+Sent message 40, VC=[40,37,41,36]
+Delivered message 40 from P0, VC=[41,34,34,34]
+Delivered message 37 from P1, VC=[34,38,32,31]
+Delivered message 36 from P3, VC=[35,33,33,37]
+
+==> logs/log3.txt <==
+Sent message 38, VC=[37,35,35,39]
+Delivered message 37 from P0, VC=[38,31,31,31]
+Delivered message 35 from P1, VC=[32,36,30,29]
+Delivered message 35 from P2, VC=[35,32,36,31]
+
+==> logs/log0.txt <==
+Delivered message 37 from P2, VC=[37,34,38,33]
+Delivered message 37 from P3, VC=[36,34,34,38]
+
+==> logs/log1.txt <==
+Sent message 44, VC=[41,45,39,37]
+Delivered message 41 from P0, VC=[42,35,35,35]
+Delivered message 39 from P2, VC=[39,36,40,35]
+Delivered message 37 from P3, VC=[36,34,34,38]
+
+==> logs/log3.txt <==
+Sent message 39, VC=[38,36,36,40]
+Delivered message 38 from P0, VC=[39,32,32,32]
+Delivered message 36 from P1, VC=[33,37,31,30]
+Delivered message 36 from P2, VC=[36,33,37,32]
+
+==> logs/log1.txt <==
+Sent message 45, VC=[42,46,40,38]
+Delivered message 42 from P0, VC=[43,36,36,36]
+Delivered message 40 from P2, VC=[40,37,41,36]
+Delivered message 38 from P3, VC=[37,35,35,39]
+
+==> logs/log3.txt <==
+Sent message 40, VC=[39,37,37,41]
+Delivered message 39 from P0, VC=[40,33,33,33]
+Delivered message 37 from P1, VC=[34,38,32,31]
+Delivered message 37 from P2, VC=[37,34,38,33]
+Sent message 41, VC=[40,38,38,42]
+Delivered message 40 from P0, VC=[41,34,34,34]
+Delivered message 38 from P1, VC=[35,39,33,32]
+Delivered message 38 from P2, VC=[38,35,39,34]
+
+==> logs/log2.txt <==
+Sent message 41, VC=[41,38,42,37]
+Delivered message 41 from P0, VC=[42,35,35,35]
+Delivered message 38 from P1, VC=[35,39,33,32]
+Delivered message 37 from P3, VC=[36,34,34,38]
+
+==> logs/log0.txt <==
+Sent message 44, VC=[45,38,38,38]
+Delivered message 38 from P1, VC=[35,39,33,32]
+Delivered message 38 from P2, VC=[38,35,39,34]
+Delivered message 38 from P3, VC=[37,35,35,39]
+
+==> logs/log1.txt <==
+Sent message 46, VC=[43,47,41,39]
+Delivered message 43 from P0, VC=[44,37,37,37]
+Delivered message 41 from P2, VC=[41,38,42,37]
+
+==> logs/log3.txt <==
+Sent message 42, VC=[41,39,39,43]
+Delivered message 41 from P0, VC=[42,35,35,35]
+Delivered message 39 from P1, VC=[36,40,34,33]
+Delivered message 39 from P2, VC=[39,36,40,35]
+
+==> logs/log1.txt <==
+Delivered message 39 from P3, VC=[38,36,36,40]
+
+==> logs/log0.txt <==
+Sent message 45, VC=[46,39,39,39]
+Delivered message 39 from P1, VC=[36,40,34,33]
+Delivered message 39 from P2, VC=[39,36,40,35]
+Delivered message 39 from P3, VC=[38,36,36,40]
+Sent message 46, VC=[47,40,40,40]
+
+==> logs/log2.txt <==
+Sent message 42, VC=[42,39,43,38]
+Delivered message 42 from P0, VC=[43,36,36,36]
+Delivered message 39 from P1, VC=[36,40,34,33]
+Delivered message 38 from P3, VC=[37,35,35,39]
+
+==> logs/log0.txt <==
+Delivered message 40 from P1, VC=[37,41,35,33]
+Delivered message 40 from P2, VC=[40,37,41,36]
+Delivered message 40 from P3, VC=[39,37,37,41]
+
+==> logs/log1.txt <==
+Sent message 47, VC=[44,48,42,40]
+Delivered message 44 from P0, VC=[45,38,38,38]
+Delivered message 42 from P2, VC=[42,39,43,38]
+Delivered message 40 from P3, VC=[39,37,37,41]
+
+==> logs/log2.txt <==
+Sent message 43, VC=[43,40,44,39]
+Delivered message 43 from P0, VC=[44,37,37,37]
+Delivered message 40 from P1, VC=[37,41,35,33]
+Delivered message 39 from P3, VC=[38,36,36,40]
+
+==> logs/log0.txt <==
+Sent message 47, VC=[48,41,41,41]
+Delivered message 41 from P1, VC=[38,42,36,34]
+
+==> logs/log3.txt <==
+Sent message 43, VC=[42,40,40,44]
+Delivered message 42 from P0, VC=[43,36,36,36]
+Delivered message 40 from P1, VC=[37,41,35,33]
+
+==> logs/log0.txt <==
+Delivered message 41 from P2, VC=[41,38,42,37]
+Delivered message 41 from P3, VC=[40,38,38,42]
+
+==> logs/log3.txt <==
+Delivered message 40 from P2, VC=[40,37,41,36]
+
+==> logs/log0.txt <==
+Sent message 48, VC=[49,42,42,42]
+Delivered message 42 from P1, VC=[39,43,37,35]
+Delivered message 42 from P2, VC=[42,39,43,38]
+
+==> logs/log1.txt <==
+Sent message 48, VC=[45,49,43,41]
+Delivered message 45 from P0, VC=[46,39,39,39]
+Delivered message 43 from P2, VC=[43,40,44,39]
+Delivered message 41 from P3, VC=[40,38,38,42]
+
+==> logs/log2.txt <==
+Sent message 44, VC=[44,41,45,40]
+Delivered message 44 from P0, VC=[45,38,38,38]
+Delivered message 41 from P1, VC=[38,42,36,34]
+Delivered message 40 from P3, VC=[39,37,37,41]
+
+==> logs/log0.txt <==
+Delivered message 42 from P3, VC=[41,39,39,43]
+Sent message 49, VC=[50,43,43,43]
+Delivered message 43 from P1, VC=[40,44,38,36]
+Delivered message 43 from P2, VC=[43,40,44,39]
+Delivered message 43 from P3, VC=[42,40,40,44]
+Sent message 50, VC=[51,44,44,44]
+Delivered message 44 from P1, VC=[41,45,39,37]
+Delivered message 44 from P2, VC=[44,41,45,40]
+
+==> logs/log1.txt <==
+Sent message 49, VC=[46,50,44,42]
+Delivered message 46 from P0, VC=[47,40,40,40]
+Delivered message 44 from P2, VC=[44,41,45,40]
+
+==> logs/log3.txt <==
+Sent message 44, VC=[43,41,41,45]
+Delivered message 43 from P0, VC=[44,37,37,37]
+Delivered message 41 from P1, VC=[38,42,36,34]
+Delivered message 41 from P2, VC=[41,38,42,37]
+
+==> logs/log1.txt <==
+Delivered message 42 from P3, VC=[41,39,39,43]
+Sent message 50, VC=[47,51,45,43]
+Delivered message 47 from P0, VC=[48,41,41,41]
+Delivered message 43 from P3, VC=[42,40,40,44]
+Sent message 51, VC=[48,52,45,44]
+
+==> logs/log2.txt <==
+Sent message 45, VC=[45,42,46,41]
+Delivered message 45 from P0, VC=[46,39,39,39]
+Delivered message 42 from P1, VC=[39,43,37,35]
+
+==> logs/log1.txt <==
+Delivered message 48 from P0, VC=[49,42,42,42]
+Delivered message 45 from P2, VC=[45,42,46,41]
+Delivered message 44 from P3, VC=[43,41,41,45]
+
+==> logs/log2.txt <==
+Delivered message 41 from P3, VC=[40,38,38,42]
+
+==> logs/log0.txt <==
+Sent message 51, VC=[52,45,45,44]
+
+==> logs/log3.txt <==
+Sent message 45, VC=[44,42,42,46]
+Delivered message 44 from P0, VC=[45,38,38,38]
+Delivered message 42 from P1, VC=[39,43,37,35]
+Delivered message 42 from P2, VC=[42,39,43,38]
+
+==> logs/log0.txt <==
+Delivered message 45 from P1, VC=[42,46,40,38]
+Delivered message 45 from P2, VC=[45,42,46,41]
+Delivered message 44 from P3, VC=[43,41,41,45]
+
+==> logs/log1.txt <==
+Sent message 52, VC=[49,53,46,45]
+Delivered message 49 from P0, VC=[50,43,43,43]
+Delivered message 45 from P3, VC=[44,42,42,46]
+
+==> logs/log2.txt <==
+Sent message 46, VC=[46,43,47,42]
+Delivered message 46 from P0, VC=[47,40,40,40]
+Delivered message 43 from P1, VC=[40,44,38,36]
+Delivered message 42 from P3, VC=[41,39,39,43]
+
+==> logs/log0.txt <==
+Sent message 52, VC=[53,46,46,45]
+Delivered message 46 from P1, VC=[43,47,41,39]
+Delivered message 46 from P2, VC=[46,43,47,42]
+Delivered message 45 from P3, VC=[44,42,42,46]
+Sent message 53, VC=[54,47,47,46]
+Delivered message 47 from P1, VC=[44,48,42,40]
+
+==> logs/log3.txt <==
+Sent message 46, VC=[45,43,43,47]
+Delivered message 45 from P0, VC=[46,39,39,39]
+Delivered message 43 from P1, VC=[40,44,38,36]
+Delivered message 43 from P2, VC=[43,40,44,39]
+
+==> logs/log1.txt <==
+Sent message 53, VC=[50,54,46,46]
+Delivered message 50 from P0, VC=[51,44,44,44]
+Delivered message 46 from P2, VC=[46,43,47,42]
+Delivered message 46 from P3, VC=[45,43,43,47]
+
+==> logs/log0.txt <==
+Sent message 54, VC=[55,48,47,46]
+Delivered message 48 from P1, VC=[45,49,43,41]
+
+==> logs/log2.txt <==
+Sent message 47, VC=[47,44,48,43]
+Delivered message 47 from P0, VC=[48,41,41,41]
+Delivered message 44 from P1, VC=[41,45,39,37]
+Delivered message 43 from P3, VC=[42,40,40,44]
+
+==> logs/log3.txt <==
+Sent message 47, VC=[46,44,44,48]
+Delivered message 46 from P0, VC=[47,40,40,40]
+Delivered message 44 from P1, VC=[41,45,39,37]
+Delivered message 44 from P2, VC=[44,41,45,40]
+
+==> logs/log0.txt <==
+Delivered message 47 from P2, VC=[47,44,48,43]
+Delivered message 46 from P3, VC=[45,43,43,47]
+
+==> logs/log1.txt <==
+Sent message 54, VC=[51,55,47,47]
+Delivered message 51 from P0, VC=[52,45,45,44]
+Delivered message 47 from P2, VC=[47,44,48,43]
+Delivered message 47 from P3, VC=[46,44,44,48]
+
+==> logs/log2.txt <==
+Sent message 48, VC=[48,45,49,44]
+Delivered message 48 from P0, VC=[49,42,42,42]
+Delivered message 45 from P1, VC=[42,46,40,38]
+Delivered message 44 from P3, VC=[43,41,41,45]
+
+==> logs/log0.txt <==
+Sent message 55, VC=[56,49,48,47]
+Delivered message 49 from P1, VC=[46,50,44,42]
+
+==> logs/log3.txt <==
+Sent message 48, VC=[47,45,45,49]
+Delivered message 47 from P0, VC=[48,41,41,41]
+Delivered message 45 from P1, VC=[42,46,40,38]
+Delivered message 45 from P2, VC=[45,42,46,41]
+
+==> logs/log0.txt <==
+Delivered message 48 from P2, VC=[48,45,49,44]
+Delivered message 47 from P3, VC=[46,44,44,48]
+
+==> logs/log1.txt <==
+Sent message 55, VC=[52,56,48,48]
+Delivered message 52 from P0, VC=[53,46,46,45]
+Delivered message 48 from P2, VC=[48,45,49,44]
+Delivered message 48 from P3, VC=[47,45,45,49]
+Sent message 56, VC=[53,57,49,49]
+
+==> logs/log2.txt <==
+Sent message 49, VC=[49,46,50,45]
+Delivered message 49 from P0, VC=[50,43,43,43]
+Delivered message 46 from P1, VC=[43,47,41,39]
+Delivered message 45 from P3, VC=[44,42,42,46]
+
+==> logs/log1.txt <==
+Delivered message 53 from P0, VC=[54,47,47,46]
+Delivered message 49 from P2, VC=[49,46,50,45]
+Sent message 57, VC=[54,58,50,49]
+Delivered message 54 from P0, VC=[55,48,47,46]
+
+==> logs/log0.txt <==
+Sent message 56, VC=[57,50,49,48]
+Delivered message 50 from P1, VC=[47,51,45,43]
+Delivered message 49 from P2, VC=[49,46,50,45]
+
+==> logs/log3.txt <==
+Sent message 49, VC=[48,46,46,50]
+Delivered message 48 from P0, VC=[49,42,42,42]
+Delivered message 46 from P1, VC=[43,47,41,39]
+Delivered message 46 from P2, VC=[46,43,47,42]
+
+==> logs/log0.txt <==
+Delivered message 48 from P3, VC=[47,45,45,49]
+
+==> logs/log3.txt <==
+Sent message 50, VC=[49,47,47,51]
+Delivered message 49 from P0, VC=[50,43,43,43]
+Delivered message 47 from P1, VC=[44,48,42,40]
+Delivered message 47 from P2, VC=[47,44,48,43]
+
+==> logs/log2.txt <==
+Sent message 50, VC=[50,47,51,46]
+Delivered message 50 from P0, VC=[51,44,44,44]
+Delivered message 47 from P1, VC=[44,48,42,40]
+Delivered message 46 from P3, VC=[45,43,43,47]
+
+==> logs/log1.txt <==
+Sent message 58, VC=[55,59,50,49]
+Delivered message 55 from P0, VC=[56,49,48,47]
+
+==> logs/log2.txt <==
+Sent message 51, VC=[51,48,52,47]
+Delivered message 51 from P0, VC=[52,45,45,44]
+Delivered message 48 from P1, VC=[45,49,43,41]
+Delivered message 47 from P3, VC=[46,44,44,48]
+
+==> logs/log0.txt <==
+Sent message 57, VC=[58,51,50,49]
+Delivered message 51 from P1, VC=[48,52,45,44]
+
+==> logs/log1.txt <==
+Delivered message 50 from P2, VC=[50,47,51,46]
+Delivered message 49 from P3, VC=[48,46,46,50]
+
+==> logs/log0.txt <==
+Delivered message 50 from P2, VC=[50,47,51,46]
+Delivered message 49 from P3, VC=[48,46,46,50]
+
+==> logs/log2.txt <==
+Sent message 52, VC=[52,49,53,48]
+Delivered message 52 from P0, VC=[53,46,46,45]
+Delivered message 49 from P1, VC=[46,50,44,42]
+Delivered message 48 from P3, VC=[47,45,45,49]
+
+==> logs/log3.txt <==
+Sent message 51, VC=[50,48,48,52]
+Delivered message 50 from P0, VC=[51,44,44,44]
+Delivered message 48 from P1, VC=[45,49,43,41]
+Delivered message 48 from P2, VC=[48,45,49,44]
+Sent message 52, VC=[51,49,49,53]
+Delivered message 51 from P0, VC=[52,45,45,44]
+Delivered message 49 from P1, VC=[46,50,44,42]
+Delivered message 49 from P2, VC=[49,46,50,45]
+
+==> logs/log0.txt <==
+Sent message 58, VC=[59,52,51,50]
+Delivered message 52 from P1, VC=[49,53,46,45]
+Delivered message 51 from P2, VC=[51,48,52,47]
+Delivered message 50 from P3, VC=[49,47,47,51]
+
+==> logs/log2.txt <==
+Sent message 53, VC=[53,50,54,49]
+Delivered message 53 from P0, VC=[54,47,47,46]
+Delivered message 50 from P1, VC=[47,51,45,43]
+Delivered message 49 from P3, VC=[48,46,46,50]
+
+==> logs/log1.txt <==
+Sent message 59, VC=[56,60,51,50]
+Delivered message 56 from P0, VC=[57,50,49,48]
+Delivered message 51 from P2, VC=[51,48,52,47]
+Delivered message 50 from P3, VC=[49,47,47,51]
+Sent message 60, VC=[57,61,52,51]
+Delivered message 57 from P0, VC=[58,51,50,49]
+Delivered message 52 from P2, VC=[52,49,53,48]
+Delivered message 51 from P3, VC=[50,48,48,52]
+
+==> logs/log0.txt <==
+Sent message 59, VC=[60,53,52,51]
+Delivered message 53 from P1, VC=[50,54,46,46]
+Delivered message 52 from P2, VC=[52,49,53,48]
+Delivered message 51 from P3, VC=[50,48,48,52]
+
+==> logs/log2.txt <==
+Sent message 54, VC=[54,51,55,50]
+Delivered message 54 from P0, VC=[55,48,47,46]
+Delivered message 51 from P1, VC=[48,52,45,44]
+
+==> logs/log0.txt <==
+Sent message 60, VC=[61,54,53,52]
+Delivered message 54 from P1, VC=[51,55,47,47]
+Delivered message 53 from P2, VC=[53,50,54,49]
+Delivered message 52 from P3, VC=[51,49,49,53]
+
+==> logs/log2.txt <==
+Delivered message 50 from P3, VC=[49,47,47,51]
+
+==> logs/log3.txt <==
+Sent message 53, VC=[52,50,50,54]
+Delivered message 52 from P0, VC=[53,46,46,45]
+Delivered message 50 from P1, VC=[47,51,45,43]
+Delivered message 50 from P2, VC=[50,47,51,46]
+Sent message 54, VC=[53,51,51,55]
+Delivered message 53 from P0, VC=[54,47,47,46]
+Delivered message 51 from P1, VC=[48,52,45,44]
+Delivered message 51 from P2, VC=[51,48,52,47]
+
+==> logs/log2.txt <==
+Sent message 55, VC=[55,52,56,51]
+Delivered message 55 from P0, VC=[56,49,48,47]
+Delivered message 52 from P1, VC=[49,53,46,45]
+Delivered message 51 from P3, VC=[50,48,48,52]
+
+==> logs/log1.txt <==
+Sent message 61, VC=[58,62,53,52]
+Delivered message 58 from P0, VC=[59,52,51,50]
+
+==> logs/log0.txt <==
+Sent message 61, VC=[62,55,54,53]
+Delivered message 55 from P1, VC=[52,56,48,48]
+
+==> logs/log1.txt <==
+Delivered message 53 from P2, VC=[53,50,54,49]
+Delivered message 52 from P3, VC=[51,49,49,53]
+
+==> logs/log0.txt <==
+Delivered message 54 from P2, VC=[54,51,55,50]
+Delivered message 53 from P3, VC=[52,50,50,54]
+Sent message 62, VC=[63,56,55,54]
+Delivered message 56 from P1, VC=[53,57,49,49]
+Delivered message 55 from P2, VC=[55,52,56,51]
+Delivered message 54 from P3, VC=[53,51,51,55]
+Sent message 63, VC=[64,57,56,55]
+Delivered message 57 from P1, VC=[54,58,50,49]
+
+==> logs/log1.txt <==
+Sent message 62, VC=[59,63,54,53]
+Delivered message 59 from P0, VC=[60,53,52,51]
+
+==> logs/log2.txt <==
+Sent message 56, VC=[56,53,57,52]
+Delivered message 56 from P0, VC=[57,50,49,48]
+Delivered message 53 from P1, VC=[50,54,46,46]
+Delivered message 52 from P3, VC=[51,49,49,53]
+
+==> logs/log1.txt <==
+Delivered message 54 from P2, VC=[54,51,55,50]
+Delivered message 53 from P3, VC=[52,50,50,54]
+
+==> logs/log0.txt <==
+Sent message 64, VC=[65,58,56,55]
+Delivered message 58 from P1, VC=[55,59,50,49]
+Delivered message 56 from P2, VC=[56,53,57,52]
+
+==> logs/log1.txt <==
+Sent message 63, VC=[60,64,55,54]
+Delivered message 60 from P0, VC=[61,54,53,52]
+Delivered message 55 from P2, VC=[55,52,56,51]
+Delivered message 54 from P3, VC=[53,51,51,55]
+
+==> logs/log3.txt <==
+Sent message 55, VC=[54,52,52,56]
+Delivered message 54 from P0, VC=[55,48,47,46]
+Delivered message 52 from P1, VC=[49,53,46,45]
+Delivered message 52 from P2, VC=[52,49,53,48]
+
+==> logs/log1.txt <==
+Sent message 64, VC=[61,65,56,55]
+
+==> logs/log2.txt <==
+Sent message 57, VC=[57,54,58,53]
+Delivered message 57 from P0, VC=[58,51,50,49]
+Delivered message 54 from P1, VC=[51,55,47,47]
+Delivered message 53 from P3, VC=[52,50,50,54]
+
+==> logs/log1.txt <==
+Delivered message 61 from P0, VC=[62,55,54,53]
+Delivered message 56 from P2, VC=[56,53,57,52]
+Delivered message 55 from P3, VC=[54,52,52,56]
+
+==> logs/log0.txt <==
+Sent message 65, VC=[66,59,57,55]
+Delivered message 59 from P1, VC=[56,60,51,50]
+Delivered message 57 from P2, VC=[57,54,58,53]
+Delivered message 55 from P3, VC=[54,52,52,56]
+Sent message 66, VC=[67,60,58,56]
+
+==> logs/log3.txt <==
+Sent message 56, VC=[55,53,53,57]
+Delivered message 55 from P0, VC=[56,49,48,47]
+Delivered message 53 from P1, VC=[50,54,46,46]
+
+==> logs/log0.txt <==
+Delivered message 60 from P1, VC=[57,61,52,51]
+Delivered message 56 from P3, VC=[55,53,53,57]
+
+==> logs/log3.txt <==
+Delivered message 53 from P2, VC=[53,50,54,49]
+
+==> logs/log1.txt <==
+Sent message 65, VC=[62,66,57,56]
+Delivered message 62 from P0, VC=[63,56,55,54]
+Delivered message 57 from P2, VC=[57,54,58,53]
+Delivered message 56 from P3, VC=[55,53,53,57]
+
+==> logs/log2.txt <==
+Sent message 58, VC=[58,55,59,54]
+Delivered message 58 from P0, VC=[59,52,51,50]
+Delivered message 55 from P1, VC=[52,56,48,48]
+Delivered message 54 from P3, VC=[53,51,51,55]
+
+==> logs/log0.txt <==
+Sent message 67, VC=[68,61,58,57]
+Delivered message 61 from P1, VC=[58,62,53,52]
+Delivered message 58 from P2, VC=[58,55,59,54]
+
+==> logs/log1.txt <==
+Sent message 66, VC=[63,67,58,57]
+Delivered message 63 from P0, VC=[64,57,56,55]
+Delivered message 58 from P2, VC=[58,55,59,54]
+
+==> logs/log2.txt <==
+Sent message 59, VC=[59,56,60,55]
+Delivered message 59 from P0, VC=[60,53,52,51]
+Delivered message 56 from P1, VC=[53,57,49,49]
+Delivered message 55 from P3, VC=[54,52,52,56]
+
+==> logs/log1.txt <==
+Sent message 67, VC=[64,68,59,57]
+Delivered message 64 from P0, VC=[65,58,56,55]
+Delivered message 59 from P2, VC=[59,56,60,55]
+
+==> logs/log2.txt <==
+Sent message 60, VC=[60,57,61,56]
+Delivered message 60 from P0, VC=[61,54,53,52]
+
+==> logs/log3.txt <==
+Sent message 57, VC=[56,54,54,58]
+Delivered message 56 from P0, VC=[57,50,49,48]
+Delivered message 54 from P1, VC=[51,55,47,47]
+Delivered message 54 from P2, VC=[54,51,55,50]
+
+==> logs/log0.txt <==
+Sent message 68, VC=[69,62,59,57]
+Delivered message 62 from P1, VC=[59,63,54,53]
+Delivered message 59 from P2, VC=[59,56,60,55]
+Delivered message 57 from P3, VC=[56,54,54,58]
+
+==> logs/log2.txt <==
+Delivered message 57 from P1, VC=[54,58,50,49]
+Delivered message 56 from P3, VC=[55,53,53,57]
+Sent message 61, VC=[61,58,62,57]
+Delivered message 61 from P0, VC=[62,55,54,53]
+Delivered message 58 from P1, VC=[55,59,50,49]
+Delivered message 57 from P3, VC=[56,54,54,58]
+
+==> logs/log0.txt <==
+Sent message 69, VC=[70,63,60,58]
+Delivered message 63 from P1, VC=[60,64,55,54]
+Delivered message 60 from P2, VC=[60,57,61,56]
+
+==> logs/log1.txt <==
+Sent message 68, VC=[65,69,60,57]
+Delivered message 65 from P0, VC=[66,59,57,55]
+Delivered message 60 from P2, VC=[60,57,61,56]
+
+==> logs/log3.txt <==
+Sent message 58, VC=[57,55,55,59]
+Delivered message 57 from P0, VC=[58,51,50,49]
+Delivered message 55 from P1, VC=[52,56,48,48]
+Delivered message 55 from P2, VC=[55,52,56,51]
+
+==> logs/log0.txt <==
+Sent message 70, VC=[71,64,61,58]
+Delivered message 64 from P1, VC=[61,65,56,55]
+Delivered message 61 from P2, VC=[61,58,62,57]
+Delivered message 58 from P3, VC=[57,55,55,59]
+
+==> logs/log1.txt <==
+Delivered message 57 from P3, VC=[56,54,54,58]
+
+==> logs/log0.txt <==
+Sent message 71, VC=[72,65,62,59]
+Delivered message 65 from P1, VC=[62,66,57,56]
+
+==> logs/log2.txt <==
+Sent message 62, VC=[62,59,63,58]
+Delivered message 62 from P0, VC=[63,56,55,54]
+Delivered message 59 from P1, VC=[56,60,51,50]
+Delivered message 58 from P3, VC=[57,55,55,59]
+
+==> logs/log0.txt <==
+Sent message 72, VC=[73,66,62,59]
+Delivered message 66 from P1, VC=[63,67,58,57]
+Delivered message 62 from P2, VC=[62,59,63,58]
+
+==> logs/log1.txt <==
+Sent message 69, VC=[66,70,61,58]
+Delivered message 66 from P0, VC=[67,60,58,56]
+Delivered message 61 from P2, VC=[61,58,62,57]
+Delivered message 58 from P3, VC=[57,55,55,59]
+
+==> logs/log2.txt <==
+Sent message 63, VC=[63,60,64,59]
+Delivered message 63 from P0, VC=[64,57,56,55]
+Delivered message 60 from P1, VC=[57,61,52,51]
+
+==> logs/log3.txt <==
+Sent message 59, VC=[58,56,56,60]
+Delivered message 58 from P0, VC=[59,52,51,50]
+Delivered message 56 from P1, VC=[53,57,49,49]
+Delivered message 56 from P2, VC=[56,53,57,52]
+
+==> logs/log2.txt <==
+Delivered message 59 from P3, VC=[58,56,56,60]
+
+==> logs/log0.txt <==
+Sent message 73, VC=[74,67,63,59]
+Delivered message 67 from P1, VC=[64,68,59,57]
+Delivered message 63 from P2, VC=[63,60,64,59]
+
+==> logs/log3.txt <==
+Sent message 60, VC=[59,57,57,61]
+Delivered message 59 from P0, VC=[60,53,52,51]
+Delivered message 57 from P1, VC=[54,58,50,49]
+Delivered message 57 from P2, VC=[57,54,58,53]
+
+==> logs/log0.txt <==
+Delivered message 59 from P3, VC=[58,56,56,60]
+
+==> logs/log1.txt <==
+Sent message 70, VC=[67,71,62,59]
+Delivered message 67 from P0, VC=[68,61,58,57]
+Delivered message 62 from P2, VC=[62,59,63,58]
+Delivered message 59 from P3, VC=[58,56,56,60]
+
+==> logs/log2.txt <==
+Sent message 64, VC=[64,61,65,60]
+Delivered message 64 from P0, VC=[65,58,56,55]
+Delivered message 61 from P1, VC=[58,62,53,52]
+Delivered message 60 from P3, VC=[59,57,57,61]
+
+==> logs/log1.txt <==
+Sent message 71, VC=[68,72,63,60]
+Delivered message 68 from P0, VC=[69,62,59,57]
+Delivered message 63 from P2, VC=[63,60,64,59]
+Delivered message 60 from P3, VC=[59,57,57,61]
+
+==> logs/log3.txt <==
+Sent message 61, VC=[60,58,58,62]
+Delivered message 60 from P0, VC=[61,54,53,52]
+Delivered message 58 from P1, VC=[55,59,50,49]
+Delivered message 58 from P2, VC=[58,55,59,54]
+
+==> logs/log2.txt <==
+Sent message 65, VC=[65,62,66,61]
+Delivered message 65 from P0, VC=[66,59,57,55]
+Delivered message 62 from P1, VC=[59,63,54,53]
+Delivered message 61 from P3, VC=[60,58,58,62]
+
+==> logs/log0.txt <==
+Sent message 74, VC=[75,68,64,60]
+Delivered message 68 from P1, VC=[65,69,60,57]
+Delivered message 64 from P2, VC=[64,61,65,60]
+Delivered message 60 from P3, VC=[59,57,57,61]
+
+==> logs/log1.txt <==
+Sent message 72, VC=[69,73,64,61]
+Delivered message 69 from P0, VC=[70,63,60,58]
+Delivered message 64 from P2, VC=[64,61,65,60]
+Delivered message 61 from P3, VC=[60,58,58,62]
+
+==> logs/log2.txt <==
+Sent message 66, VC=[66,63,67,62]
+Delivered message 66 from P0, VC=[67,60,58,56]
+Delivered message 63 from P1, VC=[60,64,55,54]
+
+==> logs/log3.txt <==
+Sent message 62, VC=[61,59,59,63]
+Delivered message 61 from P0, VC=[62,55,54,53]
+Delivered message 59 from P1, VC=[56,60,51,50]
+Delivered message 59 from P2, VC=[59,56,60,55]
+
+==> logs/log2.txt <==
+Delivered message 62 from P3, VC=[61,59,59,63]
+
+==> logs/log1.txt <==
+Sent message 73, VC=[70,74,65,62]
+Delivered message 70 from P0, VC=[71,64,61,58]
+Delivered message 65 from P2, VC=[65,62,66,61]
+
+==> logs/log0.txt <==
+Sent message 75, VC=[76,69,65,61]
+Delivered message 69 from P1, VC=[66,70,61,58]
+Delivered message 65 from P2, VC=[65,62,66,61]
+Delivered message 61 from P3, VC=[60,58,58,62]
+
+==> logs/log1.txt <==
+Delivered message 62 from P3, VC=[61,59,59,63]
+
+==> logs/log2.txt <==
+Sent message 67, VC=[67,64,68,63]
+Delivered message 67 from P0, VC=[68,61,58,57]
+Delivered message 64 from P1, VC=[61,65,56,55]
+Delivered message 63 from P3, VC=[62,60,60,64]
+
+==> logs/log3.txt <==
+Sent message 63, VC=[62,60,60,64]
+Delivered message 62 from P0, VC=[63,56,55,54]
+Delivered message 60 from P1, VC=[57,61,52,51]
+Delivered message 60 from P2, VC=[60,57,61,56]
+
+==> logs/log1.txt <==
+Sent message 74, VC=[71,75,66,63]
+Delivered message 71 from P0, VC=[72,65,62,59]
+Delivered message 66 from P2, VC=[66,63,67,62]
+Delivered message 63 from P3, VC=[62,60,60,64]
+
+==> logs/log2.txt <==
+Sent message 68, VC=[68,65,69,64]
+Delivered message 68 from P0, VC=[69,62,59,57]
+Delivered message 65 from P1, VC=[62,66,57,56]
+
+==> logs/log0.txt <==
+Sent message 76, VC=[77,70,66,62]
+Delivered message 70 from P1, VC=[67,71,62,59]
+Delivered message 66 from P2, VC=[66,63,67,62]
+
+==> logs/log1.txt <==
+Sent message 75, VC=[72,76,67,64]
+Delivered message 72 from P0, VC=[73,66,62,59]
+Delivered message 67 from P2, VC=[67,64,68,63]
+
+==> logs/log0.txt <==
+Delivered message 62 from P3, VC=[61,59,59,63]
+
+==> logs/log2.txt <==
+Sent message 69, VC=[69,66,70,64]
+Delivered message 69 from P0, VC=[70,63,60,58]
+Delivered message 66 from P1, VC=[63,67,58,57]
+
+==> logs/log3.txt <==
+Sent message 64, VC=[63,61,61,65]
+Delivered message 63 from P0, VC=[64,57,56,55]
+Delivered message 61 from P1, VC=[58,62,53,52]
+Delivered message 61 from P2, VC=[61,58,62,57]
+
+==> logs/log2.txt <==
+Delivered message 64 from P3, VC=[63,61,61,65]
+
+==> logs/log1.txt <==
+Sent message 76, VC=[73,77,68,64]
+Delivered message 73 from P0, VC=[74,67,63,59]
+Delivered message 68 from P2, VC=[68,65,69,64]
+Delivered message 64 from P3, VC=[63,61,61,65]
+
+==> logs/log2.txt <==
+Sent message 70, VC=[70,67,71,65]
+Delivered message 70 from P0, VC=[71,64,61,58]
+Delivered message 67 from P1, VC=[64,68,59,57]
+
+==> logs/log1.txt <==
+Sent message 77, VC=[74,78,69,65]
+Delivered message 74 from P0, VC=[75,68,64,60]
+Delivered message 69 from P2, VC=[69,66,70,64]
+
+==> logs/log3.txt <==
+Sent message 65, VC=[64,62,62,66]
+Delivered message 64 from P0, VC=[65,58,56,55]
+Delivered message 62 from P1, VC=[59,63,54,53]
+Delivered message 62 from P2, VC=[62,59,63,58]
+
+==> logs/log0.txt <==
+Sent message 77, VC=[78,71,67,63]
+Delivered message 71 from P1, VC=[68,72,63,60]
+Delivered message 67 from P2, VC=[67,64,68,63]
+Delivered message 63 from P3, VC=[62,60,60,64]
+
+==> logs/log1.txt <==
+Sent message 78, VC=[75,79,70,65]
+Delivered message 75 from P0, VC=[76,69,65,61]
+
+==> logs/log2.txt <==
+Sent message 71, VC=[71,68,72,65]
+Delivered message 71 from P0, VC=[72,65,62,59]
+Delivered message 68 from P1, VC=[65,69,60,57]
+Delivered message 65 from P3, VC=[64,62,62,66]
+
+==> logs/log1.txt <==
+Delivered message 70 from P2, VC=[70,67,71,65]
+Delivered message 65 from P3, VC=[64,62,62,66]
+
+==> logs/log0.txt <==
+Sent message 78, VC=[79,72,68,64]
+Delivered message 72 from P1, VC=[69,73,64,61]
+Delivered message 68 from P2, VC=[68,65,69,64]
+
+==> logs/log3.txt <==
+Sent message 66, VC=[65,63,63,67]
+Delivered message 65 from P0, VC=[66,59,57,55]
+Delivered message 63 from P1, VC=[60,64,55,54]
+Delivered message 63 from P2, VC=[63,60,64,59]
+
+==> logs/log0.txt <==
+Delivered message 64 from P3, VC=[63,61,61,65]
+
+==> logs/log1.txt <==
+Sent message 79, VC=[76,80,71,66]
+Delivered message 76 from P0, VC=[77,70,66,62]
+Delivered message 71 from P2, VC=[71,68,72,65]
+Delivered message 66 from P3, VC=[65,63,63,67]
+
+==> logs/log2.txt <==
+Sent message 72, VC=[72,69,73,66]
+Delivered message 72 from P0, VC=[73,66,62,59]
+
+==> logs/log3.txt <==
+Sent message 67, VC=[66,64,64,68]
+Delivered message 66 from P0, VC=[67,60,58,56]
+Delivered message 64 from P1, VC=[61,65,56,55]
+
+==> logs/log2.txt <==
+Delivered message 69 from P1, VC=[66,70,61,58]
+Delivered message 66 from P3, VC=[65,63,63,67]
+
+==> logs/log3.txt <==
+Delivered message 64 from P2, VC=[64,61,65,60]
+
+==> logs/log1.txt <==
+Sent message 80, VC=[77,81,72,67]
+Delivered message 77 from P0, VC=[78,71,67,63]
+
+==> logs/log3.txt <==
+Sent message 68, VC=[67,65,65,69]
+Delivered message 67 from P0, VC=[68,61,58,57]
+Delivered message 65 from P1, VC=[62,66,57,56]
+Delivered message 65 from P2, VC=[65,62,66,61]
+
+==> logs/log1.txt <==
+Delivered message 72 from P2, VC=[72,69,73,66]
+Delivered message 67 from P3, VC=[66,64,64,68]
+Sent message 81, VC=[78,82,73,68]
+Delivered message 78 from P0, VC=[79,72,68,64]
+Delivered message 68 from P3, VC=[67,65,65,69]
+
+==> logs/log0.txt <==
+Sent message 79, VC=[80,73,69,65]
+Delivered message 73 from P1, VC=[70,74,65,62]
+Delivered message 69 from P2, VC=[69,66,70,64]
+
+==> logs/log2.txt <==
+Sent message 73, VC=[73,70,74,67]
+Delivered message 73 from P0, VC=[74,67,63,59]
+Delivered message 70 from P1, VC=[67,71,62,59]
+Delivered message 67 from P3, VC=[66,64,64,68]
+
+==> logs/log0.txt <==
+Delivered message 65 from P3, VC=[64,62,62,66]
+
+==> logs/log3.txt <==
+Sent message 69, VC=[68,66,66,70]
+Delivered message 68 from P0, VC=[69,62,59,57]
+Delivered message 66 from P1, VC=[63,67,58,57]
+Delivered message 66 from P2, VC=[66,63,67,62]
+
+==> logs/log2.txt <==
+Sent message 74, VC=[74,71,75,68]
+Delivered message 74 from P0, VC=[75,68,64,60]
+Delivered message 71 from P1, VC=[68,72,63,60]
+Delivered message 68 from P3, VC=[67,65,65,69]
+
+==> logs/log1.txt <==
+Sent message 82, VC=[79,83,73,69]
+Delivered message 79 from P0, VC=[80,73,69,65]
+Delivered message 73 from P2, VC=[73,70,74,67]
+Delivered message 69 from P3, VC=[68,66,66,70]
+
+==> logs/log0.txt <==
+Sent message 80, VC=[81,74,70,66]
+Delivered message 74 from P1, VC=[71,75,66,63]
+Delivered message 70 from P2, VC=[70,67,71,65]
+Delivered message 66 from P3, VC=[65,63,63,67]
+
+==> logs/log1.txt <==
+Sent message 83, VC=[80,84,74,70]
+Delivered message 80 from P0, VC=[81,74,70,66]
+Delivered message 74 from P2, VC=[74,71,75,68]
+
+==> logs/log3.txt <==
+Sent message 70, VC=[69,67,67,71]
+Delivered message 69 from P0, VC=[70,63,60,58]
+Delivered message 67 from P1, VC=[64,68,59,57]
+Delivered message 67 from P2, VC=[67,64,68,63]
+
+==> logs/log2.txt <==
+Sent message 75, VC=[75,72,76,69]
+Delivered message 75 from P0, VC=[76,69,65,61]
+Delivered message 72 from P1, VC=[69,73,64,61]
+Delivered message 69 from P3, VC=[68,66,66,70]
+
+==> logs/log1.txt <==
+Sent message 84, VC=[81,85,75,70]
+Delivered message 75 from P2, VC=[75,72,76,69]
+Delivered message 70 from P3, VC=[69,67,67,71]
+
+==> logs/log3.txt <==
+Sent message 71, VC=[70,68,68,72]
+Delivered message 70 from P0, VC=[71,64,61,58]
+Delivered message 68 from P1, VC=[65,69,60,57]
+Delivered message 68 from P2, VC=[68,65,69,64]
+
+==> logs/log0.txt <==
+Sent message 81, VC=[82,75,71,67]
+Delivered message 75 from P1, VC=[72,76,67,64]
+
+==> logs/log2.txt <==
+Sent message 76, VC=[76,73,77,70]
+Delivered message 76 from P0, VC=[77,70,66,62]
+Delivered message 73 from P1, VC=[70,74,65,62]
+Delivered message 70 from P3, VC=[69,67,67,71]
+
+==> logs/log3.txt <==
+Sent message 72, VC=[71,69,69,73]
+Delivered message 71 from P0, VC=[72,65,62,59]
+
+==> logs/log0.txt <==
+Delivered message 71 from P2, VC=[71,68,72,65]
+Delivered message 67 from P3, VC=[66,64,64,68]
+
+==> logs/log3.txt <==
+Delivered message 69 from P1, VC=[66,70,61,58]
+Delivered message 69 from P2, VC=[69,66,70,64]
+
+==> logs/log0.txt <==
+Sent message 82, VC=[83,76,72,68]
+Delivered message 76 from P1, VC=[73,77,68,64]
+Delivered message 72 from P2, VC=[72,69,73,66]
+Delivered message 68 from P3, VC=[67,65,65,69]
+
+==> logs/log1.txt <==
+Sent message 85, VC=[81,86,76,71]
+Delivered message 81 from P0, VC=[82,75,71,67]
+Delivered message 76 from P2, VC=[76,73,77,70]
+Delivered message 71 from P3, VC=[70,68,68,72]
+
+==> logs/log2.txt <==
+Sent message 77, VC=[77,74,78,71]
+Delivered message 77 from P0, VC=[78,71,67,63]
+Delivered message 74 from P1, VC=[71,75,66,63]
+Delivered message 71 from P3, VC=[70,68,68,72]
+
+==> logs/log0.txt <==
+Sent message 83, VC=[84,77,73,69]
+Delivered message 77 from P1, VC=[74,78,69,65]
+Delivered message 73 from P2, VC=[73,70,74,67]
+Delivered message 69 from P3, VC=[68,66,66,70]
+
+==> logs/log2.txt <==
+Sent message 78, VC=[78,75,79,72]
+Delivered message 78 from P0, VC=[79,72,68,64]
+Delivered message 75 from P1, VC=[72,76,67,64]
+
+==> logs/log3.txt <==
+Sent message 73, VC=[72,70,70,74]
+Delivered message 72 from P0, VC=[73,66,62,59]
+Delivered message 70 from P1, VC=[67,71,62,59]
+
+==> logs/log2.txt <==
+Delivered message 72 from P3, VC=[71,69,69,73]
+
+==> logs/log3.txt <==
+Delivered message 70 from P2, VC=[70,67,71,65]
+
+==> logs/log2.txt <==
+Sent message 79, VC=[79,76,80,73]
+Delivered message 79 from P0, VC=[80,73,69,65]
+Delivered message 76 from P1, VC=[73,77,68,64]
+Delivered message 73 from P3, VC=[72,70,70,74]
+
+==> logs/log0.txt <==
+Sent message 84, VC=[85,78,74,70]
+Delivered message 78 from P1, VC=[75,79,70,65]
+Delivered message 74 from P2, VC=[74,71,75,68]
+Delivered message 70 from P3, VC=[69,67,67,71]
+
+==> logs/log1.txt <==
+Sent message 86, VC=[82,87,77,72]
+Delivered message 82 from P0, VC=[83,76,72,68]
+Delivered message 77 from P2, VC=[77,74,78,71]
+Delivered message 72 from P3, VC=[71,69,69,73]
+
+==> logs/log0.txt <==
+Sent message 85, VC=[86,79,75,71]
+Delivered message 79 from P1, VC=[76,80,71,66]
+Delivered message 75 from P2, VC=[75,72,76,69]
+Delivered message 71 from P3, VC=[70,68,68,72]
+
+==> logs/log2.txt <==
+Sent message 80, VC=[80,77,81,74]
+Delivered message 80 from P0, VC=[81,74,70,66]
+Delivered message 77 from P1, VC=[74,78,69,65]
+
+==> logs/log1.txt <==
+Sent message 87, VC=[83,88,78,73]
+Delivered message 83 from P0, VC=[84,77,73,69]
+Delivered message 78 from P2, VC=[78,75,79,72]
+Delivered message 73 from P3, VC=[72,70,70,74]
+
+==> logs/log3.txt <==
+Sent message 74, VC=[73,71,71,75]
+Delivered message 73 from P0, VC=[74,67,63,59]
+Delivered message 71 from P1, VC=[68,72,63,60]
+Delivered message 71 from P2, VC=[71,68,72,65]
+
+==> logs/log1.txt <==
+Sent message 88, VC=[84,89,79,74]
+Delivered message 84 from P0, VC=[85,78,74,70]
+Delivered message 79 from P2, VC=[79,76,80,73]
+Delivered message 74 from P3, VC=[73,71,71,75]
+
+==> logs/log3.txt <==
+Sent message 75, VC=[74,72,72,76]
+Delivered message 74 from P0, VC=[75,68,64,60]
+Delivered message 72 from P1, VC=[69,73,64,61]
+Delivered message 72 from P2, VC=[72,69,73,66]
+
+==> logs/log1.txt <==
+Sent message 89, VC=[85,90,80,75]
+
+==> logs/log0.txt <==
+Sent message 86, VC=[87,80,76,72]
+Delivered message 80 from P1, VC=[77,81,72,67]
+
+==> logs/log1.txt <==
+Delivered message 85 from P0, VC=[86,79,75,71]
+Delivered message 80 from P2, VC=[80,77,81,74]
+Delivered message 75 from P3, VC=[74,72,72,76]
+
+==> logs/log0.txt <==
+Delivered message 76 from P2, VC=[76,73,77,70]
+Delivered message 72 from P3, VC=[71,69,69,73]
+
+==> logs/log2.txt <==
+Sent message 81, VC=[81,78,82,74]
+Delivered message 81 from P0, VC=[82,75,71,67]
+Delivered message 78 from P1, VC=[75,79,70,65]
+Delivered message 74 from P3, VC=[73,71,71,75]
+
+==> logs/log1.txt <==
+Sent message 90, VC=[86,91,81,76]
+Delivered message 86 from P0, VC=[87,80,76,72]
+Delivered message 81 from P2, VC=[81,78,82,74]
+
+==> logs/log3.txt <==
+Sent message 76, VC=[75,73,73,77]
+Delivered message 75 from P0, VC=[76,69,65,61]
+Delivered message 73 from P1, VC=[70,74,65,62]
+Delivered message 73 from P2, VC=[73,70,74,67]
+
+==> logs/log1.txt <==
+Delivered message 76 from P3, VC=[75,73,73,77]
+
+==> logs/log0.txt <==
+Sent message 87, VC=[88,81,77,73]
+Delivered message 81 from P1, VC=[78,82,73,68]
+Delivered message 77 from P2, VC=[77,74,78,71]
+Delivered message 73 from P3, VC=[72,70,70,74]
+
+==> logs/log2.txt <==
+Sent message 82, VC=[82,79,83,75]
+Delivered message 82 from P0, VC=[83,76,72,68]
+Delivered message 79 from P1, VC=[76,80,71,66]
+Delivered message 75 from P3, VC=[74,72,72,76]
+
+==> logs/log0.txt <==
+Sent message 88, VC=[89,82,78,74]
+Delivered message 82 from P1, VC=[79,83,73,69]
+Delivered message 78 from P2, VC=[78,75,79,72]
+Delivered message 74 from P3, VC=[73,71,71,75]
+
+==> logs/log1.txt <==
+Sent message 91, VC=[87,92,82,77]
+Delivered message 87 from P0, VC=[88,81,77,73]
+Delivered message 82 from P2, VC=[82,79,83,75]
+Delivered message 77 from P3, VC=[76,74,74,78]
+
+==> logs/log3.txt <==
+Sent message 77, VC=[76,74,74,78]
+Delivered message 76 from P0, VC=[77,70,66,62]
+Delivered message 74 from P1, VC=[71,75,66,63]
+Delivered message 74 from P2, VC=[74,71,75,68]
+
+==> logs/log1.txt <==
+Sent message 92, VC=[88,93,83,78]
+Delivered message 88 from P0, VC=[89,82,78,74]
+Sent message 93, VC=[89,94,83,78]
+
+==> logs/log2.txt <==
+Sent message 83, VC=[83,80,84,76]
+Delivered message 83 from P0, VC=[84,77,73,69]
+Delivered message 80 from P1, VC=[77,81,72,67]
+Delivered message 76 from P3, VC=[75,73,73,77]
+
+==> logs/log1.txt <==
+Sent message 94, VC=[89,95,83,78]
+Delivered message 83 from P2, VC=[83,80,84,76]
+
+==> logs/log3.txt <==
+Sent message 78, VC=[77,75,75,79]
+Delivered message 77 from P0, VC=[78,71,67,63]
+Delivered message 75 from P1, VC=[72,76,67,64]
+Delivered message 75 from P2, VC=[75,72,76,69]
+
+==> logs/log0.txt <==
+Sent message 89, VC=[90,83,79,75]
+Delivered message 83 from P1, VC=[80,84,74,70]
+Delivered message 79 from P2, VC=[79,76,80,73]
+Delivered message 75 from P3, VC=[74,72,72,76]
+
+==> logs/log2.txt <==
+Sent message 84, VC=[84,81,85,77]
+Delivered message 84 from P0, VC=[85,78,74,70]
+Delivered message 81 from P1, VC=[78,82,73,68]
+Delivered message 77 from P3, VC=[76,74,74,78]
+
+==> logs/log3.txt <==
+Sent message 79, VC=[78,76,76,80]
+Delivered message 78 from P0, VC=[79,72,68,64]
+Delivered message 76 from P1, VC=[73,77,68,64]
+Delivered message 76 from P2, VC=[76,73,77,70]
+Sent message 80, VC=[79,77,77,81]
+Delivered message 79 from P0, VC=[80,73,69,65]
+Delivered message 77 from P1, VC=[74,78,69,65]
+Delivered message 77 from P2, VC=[77,74,78,71]
+
+==> logs/log1.txt <==
+Sent message 95, VC=[89,96,84,78]
+Delivered message 89 from P0, VC=[90,83,79,75]
+Delivered message 84 from P2, VC=[84,81,85,77]
+Delivered message 78 from P3, VC=[77,75,75,79]
+
+==> logs/log0.txt <==
+Sent message 90, VC=[91,84,80,76]
+Delivered message 84 from P1, VC=[81,85,75,70]
+Delivered message 80 from P2, VC=[80,77,81,74]
+
+==> logs/log2.txt <==
+Sent message 85, VC=[85,82,86,78]
+Delivered message 85 from P0, VC=[86,79,75,71]
+Delivered message 82 from P1, VC=[79,83,73,69]
+Delivered message 78 from P3, VC=[77,75,75,79]
+
+==> logs/log0.txt <==
+Delivered message 76 from P3, VC=[75,73,73,77]
+
+==> logs/log2.txt <==
+Sent message 86, VC=[86,83,87,79]
+Delivered message 86 from P0, VC=[87,80,76,72]
+Delivered message 83 from P1, VC=[80,84,74,70]
+Delivered message 79 from P3, VC=[78,76,76,80]
+
+==> logs/log0.txt <==
+Sent message 91, VC=[92,85,81,77]
+Delivered message 85 from P1, VC=[81,86,76,71]
+Delivered message 81 from P2, VC=[81,78,82,74]
+Delivered message 77 from P3, VC=[76,74,74,78]
+Sent message 92, VC=[93,86,82,78]
+Delivered message 86 from P1, VC=[82,87,77,72]
+Delivered message 82 from P2, VC=[82,79,83,75]
+Delivered message 78 from P3, VC=[77,75,75,79]
+
+==> logs/log2.txt <==
+Sent message 87, VC=[87,84,88,80]
+Delivered message 87 from P0, VC=[88,81,77,73]
+Delivered message 84 from P1, VC=[81,85,75,70]
+Delivered message 80 from P3, VC=[79,77,77,81]
+
+==> logs/log3.txt <==
+Sent message 81, VC=[80,78,78,82]
+Delivered message 80 from P0, VC=[81,74,70,66]
+Delivered message 78 from P1, VC=[75,79,70,65]
+Delivered message 78 from P2, VC=[78,75,79,72]
+
+==> logs/log1.txt <==
+Sent message 96, VC=[90,97,85,79]
+Delivered message 90 from P0, VC=[91,84,80,76]
+Delivered message 85 from P2, VC=[85,82,86,78]
+Delivered message 79 from P3, VC=[78,76,76,80]
+
+==> logs/log0.txt <==
+Sent message 93, VC=[94,87,83,79]
+Delivered message 87 from P1, VC=[83,88,78,73]
+Delivered message 83 from P2, VC=[83,80,84,76]
+
+==> logs/log1.txt <==
+Sent message 97, VC=[91,98,86,80]
+Delivered message 91 from P0, VC=[92,85,81,77]
+Delivered message 86 from P2, VC=[86,83,87,79]
+Delivered message 80 from P3, VC=[79,77,77,81]
+
+==> logs/log0.txt <==
+Delivered message 79 from P3, VC=[78,76,76,80]
+
+==> logs/log1.txt <==
+Sent message 98, VC=[92,99,87,81]
+Delivered message 92 from P0, VC=[93,86,82,78]
+Delivered message 87 from P2, VC=[87,84,88,80]
+
+==> logs/log3.txt <==
+Sent message 82, VC=[81,79,79,83]
+Delivered message 81 from P0, VC=[82,75,71,67]
+Delivered message 79 from P1, VC=[76,80,71,66]
+Delivered message 79 from P2, VC=[79,76,80,73]
+
+==> logs/log1.txt <==
+Delivered message 81 from P3, VC=[80,78,78,82]
+Sent message 99, VC=[93,100,88,82]
+Delivered message 93 from P0, VC=[94,87,83,79]
+Delivered message 82 from P3, VC=[81,79,79,83]
+
+==> logs/log2.txt <==
+Sent message 88, VC=[88,85,89,81]
+Delivered message 88 from P0, VC=[89,82,78,74]
+Delivered message 85 from P1, VC=[81,86,76,71]
+Delivered message 81 from P3, VC=[80,78,78,82]
+
+==> logs/log1.txt <==
+Delivered message 88 from P2, VC=[88,85,89,81]
+
+==> logs/log0.txt <==
+Sent message 94, VC=[95,88,84,80]
+Delivered message 88 from P1, VC=[84,89,79,74]
+Delivered message 84 from P2, VC=[84,81,85,77]
+
+==> logs/log1.txt <==
+Delivered message 89 from P2, VC=[89,86,90,82]
+Delivered message 94 from P0, VC=[95,88,84,80]
+
+==> logs/log2.txt <==
+Sent message 89, VC=[89,86,90,82]
+Delivered message 89 from P0, VC=[90,83,79,75]
+Delivered message 86 from P1, VC=[82,87,77,72]
+Delivered message 82 from P3, VC=[81,79,79,83]
+
+==> logs/log0.txt <==
+Delivered message 80 from P3, VC=[79,77,77,81]
+Sent message 95, VC=[96,89,85,81]
+
+==> logs/log1.txt <==
+Delivered message 90 from P2, VC=[90,87,91,83]
+Delivered message 95 from P0, VC=[96,89,85,81]
+
+==> logs/log2.txt <==
+Sent message 90, VC=[90,87,91,83]
+Delivered message 90 from P0, VC=[91,84,80,76]
+Delivered message 87 from P1, VC=[83,88,78,73]
+
+==> logs/log0.txt <==
+Delivered message 89 from P1, VC=[85,90,80,75]
+Delivered message 85 from P2, VC=[85,82,86,78]
+Delivered message 81 from P3, VC=[80,78,78,82]
+
+==> logs/log2.txt <==
+Sent message 91, VC=[91,88,92,83]
+Delivered message 91 from P0, VC=[92,85,81,77]
+
+==> logs/log1.txt <==
+Delivered message 91 from P2, VC=[91,88,92,83]
+
+==> logs/log2.txt <==
+Delivered message 88 from P1, VC=[84,89,79,74]
+
+==> logs/log3.txt <==
+Sent message 83, VC=[82,80,80,84]
+Delivered message 82 from P0, VC=[83,76,72,68]
+Delivered message 80 from P1, VC=[77,81,72,67]
+
+==> logs/log1.txt <==
+Delivered message 83 from P3, VC=[82,80,80,84]
+
+==> logs/log3.txt <==
+Delivered message 80 from P2, VC=[80,77,81,74]
+
+==> logs/log0.txt <==
+Sent message 96, VC=[97,90,86,82]
+Delivered message 90 from P1, VC=[86,91,81,76]
+Delivered message 86 from P2, VC=[86,83,87,79]
+
+==> logs/log1.txt <==
+Delivered message 96 from P0, VC=[97,90,86,82]
+
+==> logs/log0.txt <==
+Delivered message 82 from P3, VC=[81,79,79,83]
+
+==> logs/log1.txt <==
+Delivered message 92 from P2, VC=[92,89,93,83]
+
+==> logs/log2.txt <==
+Sent message 92, VC=[92,89,93,83]
+Delivered message 92 from P0, VC=[93,86,82,78]
+Delivered message 89 from P1, VC=[85,90,80,75]
+Delivered message 83 from P3, VC=[82,80,80,84]
+
+==> logs/log0.txt <==
+Sent message 97, VC=[98,91,87,83]
+Delivered message 91 from P1, VC=[87,92,82,77]
+Delivered message 87 from P2, VC=[87,84,88,80]
+
+==> logs/log1.txt <==
+Delivered message 97 from P0, VC=[98,91,87,83]
+Delivered message 93 from P2, VC=[93,90,94,84]
+Delivered message 84 from P3, VC=[83,81,81,85]
+
+==> logs/log2.txt <==
+Sent message 93, VC=[93,90,94,84]
+Delivered message 93 from P0, VC=[94,87,83,79]
+Delivered message 90 from P1, VC=[86,91,81,76]
+Delivered message 84 from P3, VC=[83,81,81,85]
+
+==> logs/log3.txt <==
+Sent message 84, VC=[83,81,81,85]
+Delivered message 83 from P0, VC=[84,77,73,69]
+Delivered message 81 from P1, VC=[78,82,73,68]
+Delivered message 81 from P2, VC=[81,78,82,74]
+
+==> logs/log0.txt <==
+Delivered message 83 from P3, VC=[82,80,80,84]
+
+==> logs/log3.txt <==
+Sent message 85, VC=[84,82,82,86]
+Delivered message 84 from P0, VC=[85,78,74,70]
+Delivered message 82 from P1, VC=[79,83,73,69]
+
+==> logs/log1.txt <==
+Delivered message 85 from P3, VC=[84,82,82,86]
+
+==> logs/log3.txt <==
+Delivered message 82 from P2, VC=[82,79,83,75]
+
+==> logs/log0.txt <==
+Sent message 98, VC=[99,92,88,84]
+Delivered message 92 from P1, VC=[88,93,83,78]
+Delivered message 88 from P2, VC=[88,85,89,81]
+Delivered message 84 from P3, VC=[83,81,81,85]
+
+==> logs/log1.txt <==
+Delivered message 98 from P0, VC=[99,92,88,84]
+Delivered message 94 from P2, VC=[94,91,95,85]
+
+==> logs/log2.txt <==
+Sent message 94, VC=[94,91,95,85]
+Delivered message 94 from P0, VC=[95,88,84,80]
+Delivered message 91 from P1, VC=[87,92,82,77]
+Delivered message 85 from P3, VC=[84,82,82,86]
+
+==> logs/log0.txt <==
+Sent message 99, VC=[100,93,89,85]
+Delivered message 93 from P1, VC=[89,94,83,78]
+Delivered message 89 from P2, VC=[89,86,90,82]
+
+==> logs/log1.txt <==
+Delivered message 99 from P0, VC=[100,93,89,85]
+
+==> logs/log0.txt <==
+Delivered message 85 from P3, VC=[84,82,82,86]
+Delivered message 94 from P1, VC=[89,95,83,78]
+Delivered message 90 from P2, VC=[90,87,91,83]
+Delivered message 95 from P1, VC=[89,96,84,78]
+Delivered message 91 from P2, VC=[91,88,92,83]
+Delivered message 96 from P1, VC=[90,97,85,79]
+Delivered message 92 from P2, VC=[92,89,93,83]
+Delivered message 97 from P1, VC=[91,98,86,80]
+Delivered message 93 from P2, VC=[93,90,94,84]
+Delivered message 98 from P1, VC=[92,99,87,81]
+Delivered message 94 from P2, VC=[94,91,95,85]
+Delivered message 99 from P1, VC=[93,100,88,82]
+Delivered message 86 from P3, VC=[85,83,83,87]
+
+==> logs/log1.txt <==
+Delivered message 86 from P3, VC=[85,83,83,87]
+
+==> logs/log3.txt <==
+Sent message 86, VC=[85,83,83,87]
+Delivered message 85 from P0, VC=[86,79,75,71]
+Delivered message 83 from P1, VC=[80,84,74,70]
+Delivered message 83 from P2, VC=[83,80,84,76]
+
+==> logs/log0.txt <==
+Delivered message 95 from P2, VC=[95,92,96,86]
+
+==> logs/log1.txt <==
+Delivered message 95 from P2, VC=[95,92,96,86]
+
+==> logs/log2.txt <==
+Sent message 95, VC=[95,92,96,86]
+Delivered message 95 from P0, VC=[96,89,85,81]
+Delivered message 92 from P1, VC=[88,93,83,78]
+Delivered message 86 from P3, VC=[85,83,83,87]
+
+==> logs/log0.txt <==
+Delivered message 96 from P2, VC=[96,93,97,87]
+
+==> logs/log1.txt <==
+Delivered message 96 from P2, VC=[96,93,97,87]
+
+==> logs/log2.txt <==
+Sent message 96, VC=[96,93,97,87]
+Delivered message 96 from P0, VC=[97,90,86,82]
+Delivered message 93 from P1, VC=[89,94,83,78]
+
+==> logs/log0.txt <==
+Delivered message 87 from P3, VC=[86,84,84,88]
+
+==> logs/log1.txt <==
+Delivered message 87 from P3, VC=[86,84,84,88]
+
+==> logs/log3.txt <==
+Sent message 87, VC=[86,84,84,88]
+Delivered message 86 from P0, VC=[87,80,76,72]
+Delivered message 84 from P1, VC=[81,85,75,70]
+Delivered message 84 from P2, VC=[84,81,85,77]
+
+==> logs/log0.txt <==
+Delivered message 97 from P2, VC=[97,94,98,87]
+
+==> logs/log1.txt <==
+Delivered message 97 from P2, VC=[97,94,98,87]
+
+==> logs/log2.txt <==
+Sent message 97, VC=[97,94,98,87]
+Delivered message 97 from P0, VC=[98,91,87,83]
+Delivered message 94 from P1, VC=[89,95,83,78]
+Delivered message 87 from P3, VC=[86,84,84,88]
+
+==> logs/log0.txt <==
+Delivered message 88 from P3, VC=[87,85,85,89]
+
+==> logs/log1.txt <==
+Delivered message 88 from P3, VC=[87,85,85,89]
+
+==> logs/log3.txt <==
+Sent message 88, VC=[87,85,85,89]
+Delivered message 87 from P0, VC=[88,81,77,73]
+Delivered message 85 from P1, VC=[81,86,76,71]
+Delivered message 85 from P2, VC=[85,82,86,78]
+
+==> logs/log0.txt <==
+Delivered message 89 from P3, VC=[88,86,86,90]
+
+==> logs/log1.txt <==
+Delivered message 89 from P3, VC=[88,86,86,90]
+
+==> logs/log3.txt <==
+Sent message 89, VC=[88,86,86,90]
+Delivered message 88 from P0, VC=[89,82,78,74]
+Delivered message 86 from P1, VC=[82,87,77,72]
+Delivered message 86 from P2, VC=[86,83,87,79]
+
+==> logs/log0.txt <==
+Delivered message 98 from P2, VC=[98,95,99,88]
+
+==> logs/log1.txt <==
+Delivered message 98 from P2, VC=[98,95,99,88]
+
+==> logs/log2.txt <==
+Sent message 98, VC=[98,95,99,88]
+Delivered message 98 from P0, VC=[99,92,88,84]
+Delivered message 95 from P1, VC=[89,96,84,78]
+Delivered message 88 from P3, VC=[87,85,85,89]
+
+==> logs/log0.txt <==
+Delivered message 99 from P2, VC=[99,96,100,89]
+
+==> logs/log1.txt <==
+Delivered message 99 from P2, VC=[99,96,100,89]
+
+==> logs/log2.txt <==
+Sent message 99, VC=[99,96,100,89]
+Delivered message 99 from P0, VC=[100,93,89,85]
+Delivered message 96 from P1, VC=[90,97,85,79]
+Delivered message 89 from P3, VC=[88,86,86,90]
+Delivered message 97 from P1, VC=[91,98,86,80]
+Delivered message 98 from P1, VC=[92,99,87,81]
+Delivered message 99 from P1, VC=[93,100,88,82]
+
+==> logs/log0.txt <==
+Delivered message 90 from P3, VC=[89,87,87,91]
+
+==> logs/log1.txt <==
+Delivered message 90 from P3, VC=[89,87,87,91]
+
+==> logs/log2.txt <==
+Delivered message 90 from P3, VC=[89,87,87,91]
+
+==> logs/log3.txt <==
+Sent message 90, VC=[89,87,87,91]
+Delivered message 89 from P0, VC=[90,83,79,75]
+Delivered message 87 from P1, VC=[83,88,78,73]
+Delivered message 87 from P2, VC=[87,84,88,80]
+
+==> logs/log0.txt <==
+Delivered message 91 from P3, VC=[90,88,88,92]
+
+==> logs/log1.txt <==
+Delivered message 91 from P3, VC=[90,88,88,92]
+
+==> logs/log2.txt <==
+Delivered message 91 from P3, VC=[90,88,88,92]
+
+==> logs/log3.txt <==
+Sent message 91, VC=[90,88,88,92]
+Delivered message 90 from P0, VC=[91,84,80,76]
+Delivered message 88 from P1, VC=[84,89,79,74]
+Delivered message 88 from P2, VC=[88,85,89,81]
+
+==> logs/log0.txt <==
+Delivered message 92 from P3, VC=[91,89,89,93]
+
+==> logs/log1.txt <==
+Delivered message 92 from P3, VC=[91,89,89,93]
+
+==> logs/log2.txt <==
+Delivered message 92 from P3, VC=[91,89,89,93]
+
+==> logs/log3.txt <==
+Sent message 92, VC=[91,89,89,93]
+Delivered message 91 from P0, VC=[92,85,81,77]
+Delivered message 89 from P1, VC=[85,90,80,75]
+Delivered message 89 from P2, VC=[89,86,90,82]
+
+==> logs/log0.txt <==
+Delivered message 93 from P3, VC=[92,90,90,94]
+
+==> logs/log1.txt <==
+Delivered message 93 from P3, VC=[92,90,90,94]
+
+==> logs/log2.txt <==
+Delivered message 93 from P3, VC=[92,90,90,94]
+
+==> logs/log3.txt <==
+Sent message 93, VC=[92,90,90,94]
+Delivered message 92 from P0, VC=[93,86,82,78]
+Delivered message 90 from P1, VC=[86,91,81,76]
+Delivered message 90 from P2, VC=[90,87,91,83]
+
+==> logs/log0.txt <==
+Delivered message 94 from P3, VC=[93,91,91,95]
+
+==> logs/log1.txt <==
+Delivered message 94 from P3, VC=[93,91,91,95]
+
+==> logs/log2.txt <==
+Delivered message 94 from P3, VC=[93,91,91,95]
+
+==> logs/log3.txt <==
+Sent message 94, VC=[93,91,91,95]
+Delivered message 93 from P0, VC=[94,87,83,79]
+Delivered message 91 from P1, VC=[87,92,82,77]
+Delivered message 91 from P2, VC=[91,88,92,83]
+
+==> logs/log0.txt <==
+Delivered message 95 from P3, VC=[94,92,92,96]
+
+==> logs/log1.txt <==
+Delivered message 95 from P3, VC=[94,92,92,96]
+
+==> logs/log2.txt <==
+Delivered message 95 from P3, VC=[94,92,92,96]
+
+==> logs/log3.txt <==
+Sent message 95, VC=[94,92,92,96]
+Delivered message 94 from P0, VC=[95,88,84,80]
+Delivered message 92 from P1, VC=[88,93,83,78]
+Delivered message 92 from P2, VC=[92,89,93,83]
+
+==> logs/log0.txt <==
+Delivered message 96 from P3, VC=[95,93,93,97]
+
+==> logs/log1.txt <==
+Delivered message 96 from P3, VC=[95,93,93,97]
+
+==> logs/log2.txt <==
+Delivered message 96 from P3, VC=[95,93,93,97]
+
+==> logs/log3.txt <==
+Sent message 96, VC=[95,93,93,97]
+Delivered message 95 from P0, VC=[96,89,85,81]
+Delivered message 93 from P1, VC=[89,94,83,78]
+Delivered message 93 from P2, VC=[93,90,94,84]
+
+==> logs/log0.txt <==
+Delivered message 97 from P3, VC=[96,94,94,98]
+
+==> logs/log1.txt <==
+Delivered message 97 from P3, VC=[96,94,94,98]
+
+==> logs/log2.txt <==
+Delivered message 97 from P3, VC=[96,94,94,98]
+
+==> logs/log3.txt <==
+Sent message 97, VC=[96,94,94,98]
+Delivered message 96 from P0, VC=[97,90,86,82]
+Delivered message 94 from P1, VC=[89,95,83,78]
+Delivered message 94 from P2, VC=[94,91,95,85]
+
+==> logs/log0.txt <==
+Delivered message 98 from P3, VC=[97,95,95,99]
+
+==> logs/log1.txt <==
+Delivered message 98 from P3, VC=[97,95,95,99]
+
+==> logs/log2.txt <==
+Delivered message 98 from P3, VC=[97,95,95,99]
+
+==> logs/log3.txt <==
+Sent message 98, VC=[97,95,95,99]
+Delivered message 97 from P0, VC=[98,91,87,83]
+Delivered message 95 from P1, VC=[89,96,84,78]
+Delivered message 95 from P2, VC=[95,92,96,86]
+
+==> logs/log0.txt <==
+Delivered message 99 from P3, VC=[98,96,96,100]
+======= SUMMARY =======
+Process 0 final state:
+Messages sent: 100
+Messages delivered from P1: 100
+Messages delivered from P2: 100
+Messages delivered from P3: 100
+======================
+
+==> logs/log1.txt <==
+Delivered message 99 from P3, VC=[98,96,96,100]
+======= SUMMARY =======
+Process 1 final state:
+Messages sent: 100
+Messages delivered from P0: 100
+Messages delivered from P2: 100
+Messages delivered from P3: 100
+======================
+
+==> logs/log2.txt <==
+Delivered message 99 from P3, VC=[98,96,96,100]
+======= SUMMARY =======
+Process 2 final state:
+Messages sent: 100
+Messages delivered from P0: 100
+Messages delivered from P1: 100
+Messages delivered from P3: 100
+======================
+
+==> logs/log3.txt <==
+Sent message 99, VC=[98,96,96,100]
+Delivered message 98 from P0, VC=[99,92,88,84]
+Delivered message 96 from P1, VC=[90,97,85,79]
+Delivered message 96 from P2, VC=[96,93,97,87]
+Delivered message 99 from P0, VC=[100,93,89,85]
+Delivered message 97 from P1, VC=[91,98,86,80]
+Delivered message 97 from P2, VC=[97,94,98,87]
+Delivered message 98 from P1, VC=[92,99,87,81]
+Delivered message 98 from P2, VC=[98,95,99,88]
+Connection closed by process 0
+Delivered message 99 from P1, VC=[93,100,88,82]
+Delivered message 99 from P2, VC=[99,96,100,89]
+======= SUMMARY =======
+Process 3 final state:
+Messages sent: 100
+Messages delivered from P0: 100
+Messages delivered from P1: 100
+Messages delivered from P2: 100
+======================
+All processes have completed.
+Execution complete. Check logs/log*.txt for details.
